@@ -1,0 +1,485 @@
+[
+  {
+    "name": "ASCII English",
+    "source": "Read the marks.\n",
+    "utf8_hex": "5265616420746865206d61726b732e0a",
+    "scalars": [
+      "U+0052",
+      "U+0065",
+      "U+0061",
+      "U+0064",
+      "U+0020",
+      "U+0074",
+      "U+0068",
+      "U+0065",
+      "U+0020",
+      "U+006D",
+      "U+0061",
+      "U+0072",
+      "U+006B",
+      "U+0073",
+      "U+002E",
+      "U+000A"
+    ],
+    "body": "S14+S20 S24+S10 S28+S26 S21+S20 S22+S09 S21+S23 S16+S01 S24+S10 S22+S09 S09+S04 S28+S26 S17+S28 S26+S13 S29+S29 S26+S09 S23+S08"
+  },
+  {
+    "name": "ASCII Indonesian",
+    "source": "Halo dunia",
+    "utf8_hex": "48616c6f2064756e6961",
+    "scalars": [
+      "U+0048",
+      "U+0061",
+      "U+006C",
+      "U+006F",
+      "U+0020",
+      "U+0064",
+      "U+0075",
+      "U+006E",
+      "U+0069",
+      "U+0061"
+    ],
+    "body": "S21+S15 S28+S26 S27+S06 S00+S31 S22+S09 S21+S20 S31+S08 S24+S26 S27+S25 S28+S26"
+  },
+  {
+    "name": "French",
+    "source": "Bonjour, o\u00f9 est le caf\u00e9 ?",
+    "utf8_hex": "426f6e6a6f75722c206fc3b920657374206c6520636166c3a9203f",
+    "scalars": [
+      "U+0042",
+      "U+006F",
+      "U+006E",
+      "U+006A",
+      "U+006F",
+      "U+0075",
+      "U+0072",
+      "U+002C",
+      "U+0020",
+      "U+006F",
+      "U+00F9",
+      "U+0020",
+      "U+0065",
+      "U+0073",
+      "U+0074",
+      "U+0020",
+      "U+006C",
+      "U+0065",
+      "U+0020",
+      "U+0063",
+      "U+0061",
+      "U+0066",
+      "U+00E9",
+      "U+0020",
+      "U+003F"
+    ],
+    "body": "S12+S19 S00+S31 S24+S26 S25+S05 S00+S31 S31+S08 S17+S28 S01+S07 S22+S09 S00+S31 S03+S08 S02+S29 S22+S09 S24+S10 S29+S29 S21+S23 S22+S09 S27+S06 S24+S10 S22+S09 S29+S19 S28+S26 S11+S07 S03+S08 S02+S12 S22+S09 S03+S25"
+  },
+  {
+    "name": "Spanish",
+    "source": "\u00a1Hola! \u00bfC\u00f3mo est\u00e1s?",
+    "utf8_hex": "c2a1486f6c612120c2bf43c3b36d6f20657374c3a1733f",
+    "scalars": [
+      "U+00A1",
+      "U+0048",
+      "U+006F",
+      "U+006C",
+      "U+0061",
+      "U+0021",
+      "U+0020",
+      "U+00BF",
+      "U+0043",
+      "U+00F3",
+      "U+006D",
+      "U+006F",
+      "U+0020",
+      "U+0065",
+      "U+0073",
+      "U+0074",
+      "U+00E1",
+      "U+0073",
+      "U+003F"
+    ],
+    "body": "S03+S07 S02+S03 S21+S15 S00+S31 S27+S06 S28+S26 S18+S16 S22+S09 S03+S07 S03+S04 S17+S07 S03+S08 S02+S23 S09+S04 S00+S31 S22+S09 S24+S10 S29+S29 S21+S23 S03+S08 S02+S03 S29+S29 S03+S25"
+  },
+  {
+    "name": "Portuguese",
+    "source": "Ol\u00e1, cora\u00e7\u00e3o.",
+    "utf8_hex": "4f6cc3a12c20636f7261c3a7c3a36f2e",
+    "scalars": [
+      "U+004F",
+      "U+006C",
+      "U+00E1",
+      "U+002C",
+      "U+0020",
+      "U+0063",
+      "U+006F",
+      "U+0072",
+      "U+0061",
+      "U+00E7",
+      "U+00E3",
+      "U+006F",
+      "U+002E"
+    ],
+    "body": "S09+S06 S27+S06 S03+S08 S02+S03 S01+S07 S22+S09 S29+S19 S00+S31 S17+S28 S28+S26 S03+S08 S02+S10 S03+S08 S02+S05 S00+S31 S26+S09"
+  },
+  {
+    "name": "German",
+    "source": "Gr\u00fc\u00dfe, Stra\u00dfe.",
+    "utf8_hex": "4772c3bcc39f652c2053747261c39f652e",
+    "scalars": [
+      "U+0047",
+      "U+0072",
+      "U+00FC",
+      "U+00DF",
+      "U+0065",
+      "U+002C",
+      "U+0020",
+      "U+0053",
+      "U+0074",
+      "U+0072",
+      "U+0061",
+      "U+00DF",
+      "U+0065",
+      "U+002E"
+    ],
+    "body": "S26+S08 S17+S28 S03+S08 S03+S00 S03+S08 S02+S01 S24+S10 S01+S07 S22+S09 S01+S14 S21+S23 S17+S28 S28+S26 S03+S08 S02+S01 S24+S10 S26+S09"
+  },
+  {
+    "name": "Polish",
+    "source": "Za\u017c\u00f3\u0142\u0107 g\u0119\u015bl\u0105 ja\u017a\u0144.",
+    "utf8_hex": "5a61c5bcc3b3c582c4872067c499c59b6cc485206a61c5bac5842e",
+    "scalars": [
+      "U+005A",
+      "U+0061",
+      "U+017C",
+      "U+00F3",
+      "U+0142",
+      "U+0107",
+      "U+0020",
+      "U+0067",
+      "U+0119",
+      "U+015B",
+      "U+006C",
+      "U+0105",
+      "U+0020",
+      "U+006A",
+      "U+0061",
+      "U+017A",
+      "U+0144",
+      "U+002E"
+    ],
+    "body": "S22+S03 S28+S26 S03+S10 S03+S00 S03+S08 S02+S23 S03+S10 S01+S02 S03+S09 S01+S08 S22+S09 S24+S17 S03+S09 S01+S27 S03+S10 S01+S29 S27+S06 S03+S09 S01+S05 S22+S09 S25+S05 S28+S26 S03+S10 S02+S30 S03+S10 S01+S04 S26+S09"
+  },
+  {
+    "name": "Vietnamese",
+    "source": "Xin ch\u00e0o Vi\u1ec7t Nam.",
+    "utf8_hex": "58696e206368c3a06f205669e1bb8774204e616d2e",
+    "scalars": [
+      "U+0058",
+      "U+0069",
+      "U+006E",
+      "U+0020",
+      "U+0063",
+      "U+0068",
+      "U+00E0",
+      "U+006F",
+      "U+0020",
+      "U+0056",
+      "U+0069",
+      "U+1EC7",
+      "U+0074",
+      "U+0020",
+      "U+004E",
+      "U+0061",
+      "U+006D",
+      "U+002E"
+    ],
+    "body": "S19+S11 S27+S25 S24+S26 S22+S09 S29+S19 S16+S01 S03+S08 S02+S02 S00+S31 S22+S09 S05+S29 S27+S25 S04+S09 S02+S31 S01+S08 S21+S23 S22+S09 S15+S27 S28+S26 S09+S04 S26+S09"
+  },
+  {
+    "name": "Greek",
+    "source": "\u039a\u03b1\u03bb\u03b7\u03bc\u03ad\u03c1\u03b1",
+    "utf8_hex": "ce9aceb1cebbceb7cebcceadcf81ceb1",
+    "scalars": [
+      "U+039A",
+      "U+03B1",
+      "U+03BB",
+      "U+03B7",
+      "U+03BC",
+      "U+03AD",
+      "U+03C1",
+      "U+03B1"
+    ],
+    "body": "S03+S20 S01+S28 S03+S20 S02+S21 S03+S20 S02+S31 S03+S20 S02+S27 S03+S20 S03+S00 S03+S20 S02+S16 S03+S21 S01+S01 S03+S20 S02+S21"
+  },
+  {
+    "name": "Russian",
+    "source": "\u041f\u0440\u0438\u0432\u0435\u0442, \u043c\u0438\u0440!",
+    "utf8_hex": "d09fd180d0b8d0b2d0b5d1822c20d0bcd0b8d18021",
+    "scalars": [
+      "U+041F",
+      "U+0440",
+      "U+0438",
+      "U+0432",
+      "U+0435",
+      "U+0442",
+      "U+002C",
+      "U+0020",
+      "U+043C",
+      "U+0438",
+      "U+0440",
+      "U+0021"
+    ],
+    "body": "S03+S22 S02+S01 S03+S23 S01+S00 S03+S22 S02+S28 S03+S22 S02+S22 S03+S22 S02+S25 S03+S23 S01+S02 S01+S07 S22+S09 S03+S22 S03+S00 S03+S22 S02+S28 S03+S23 S01+S00 S18+S16"
+  },
+  {
+    "name": "Arabic and digits",
+    "source": "\u0645\u0631\u062d\u0628\u064b\u0627 123",
+    "utf8_hex": "d985d8b1d8add8a8d98bd8a720313233",
+    "scalars": [
+      "U+0645",
+      "U+0631",
+      "U+062D",
+      "U+0628",
+      "U+064B",
+      "U+0627",
+      "U+0020",
+      "U+0031",
+      "U+0032",
+      "U+0033"
+    ],
+    "body": "S04+S00 S01+S05 S03+S31 S02+S21 S03+S31 S02+S16 S03+S31 S02+S11 S04+S00 S01+S12 S03+S31 S02+S10 S22+S09 S19+S07 S30+S11 S16+S30"
+  },
+  {
+    "name": "Hebrew and digits",
+    "source": "\u05e9\u05dc\u05d5\u05dd 123",
+    "utf8_hex": "d7a9d79cd795d79d20313233",
+    "scalars": [
+      "U+05E9",
+      "U+05DC",
+      "U+05D5",
+      "U+05DD",
+      "U+0020",
+      "U+0031",
+      "U+0032",
+      "U+0033"
+    ],
+    "body": "S03+S30 S02+S12 S03+S30 S01+S30 S03+S30 S01+S23 S03+S30 S01+S31 S22+S09 S19+S07 S30+S11 S16+S30"
+  },
+  {
+    "name": "Devanagari",
+    "source": "\u0928\u092e\u0938\u094d\u0924\u0947",
+    "utf8_hex": "e0a4a8e0a4aee0a4b8e0a58de0a4a4e0a587",
+    "scalars": [
+      "U+0928",
+      "U+092E",
+      "U+0938",
+      "U+094D",
+      "U+0924",
+      "U+0947"
+    ],
+    "body": "S04+S07 S02+S06 S02+S11 S04+S07 S02+S06 S02+S17 S04+S07 S02+S06 S02+S28 S04+S07 S02+S07 S01+S15 S04+S07 S02+S06 S02+S06 S04+S07 S02+S07 S01+S08"
+  },
+  {
+    "name": "Thai",
+    "source": "\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35",
+    "utf8_hex": "e0b8aae0b8a7e0b8b1e0b8aae0b894e0b8b5",
+    "scalars": [
+      "U+0E2A",
+      "U+0E27",
+      "U+0E31",
+      "U+0E2A",
+      "U+0E14",
+      "U+0E35"
+    ],
+    "body": "S04+S07 S02+S28 S02+S13 S04+S07 S02+S28 S02+S10 S04+S07 S02+S28 S02+S21 S04+S07 S02+S28 S02+S13 S04+S07 S02+S28 S01+S22 S04+S07 S02+S28 S02+S25"
+  },
+  {
+    "name": "Chinese",
+    "source": "\u4f60\u597d\uff0c\u4e16\u754c",
+    "utf8_hex": "e4bda0e5a5bdefbc8ce4b896e7958c",
+    "scalars": [
+      "U+4F60",
+      "U+597D",
+      "U+FF0C",
+      "U+4E16",
+      "U+754C"
+    ],
+    "body": "S04+S12 S03+S01 S02+S02 S04+S13 S02+S07 S03+S01 S04+S24 S03+S00 S01+S13 S04+S12 S02+S28 S01+S24 S04+S16 S01+S23 S01+S13"
+  },
+  {
+    "name": "Japanese",
+    "source": "\u3053\u3093\u306b\u3061\u306f\u4e16\u754c",
+    "utf8_hex": "e38193e38293e381abe381a1e381afe4b896e7958c",
+    "scalars": [
+      "U+3053",
+      "U+3093",
+      "U+306B",
+      "U+3061",
+      "U+306F",
+      "U+4E16",
+      "U+754C"
+    ],
+    "body": "S04+S11 S01+S01 S01+S21 S04+S11 S01+S02 S01+S21 S04+S11 S01+S01 S02+S14 S04+S11 S01+S01 S02+S03 S04+S11 S01+S01 S02+S18 S04+S12 S02+S28 S01+S24 S04+S16 S01+S23 S01+S13"
+  },
+  {
+    "name": "Korean",
+    "source": "\uc548\ub155\ud558\uc138\uc694",
+    "utf8_hex": "ec9588eb8595ed9598ec84b8ec9a94",
+    "scalars": [
+      "U+C548",
+      "U+B155",
+      "U+D558",
+      "U+C138",
+      "U+C694"
+    ],
+    "body": "S04+S21 S01+S23 S01+S09 S04+S20 S01+S05 S01+S23 S04+S22 S01+S23 S01+S26 S04+S21 S01+S04 S02+S28 S04+S21 S01+S28 S01+S22"
+  },
+  {
+    "name": "Ethiopic",
+    "source": "\u1230\u120b\u121d",
+    "utf8_hex": "e188b0e1888be1889d",
+    "scalars": [
+      "U+1230",
+      "U+120B",
+      "U+121D"
+    ],
+    "body": "S04+S09 S01+S09 S02+S19 S04+S09 S01+S09 S01+S12 S04+S09 S01+S09 S01+S31"
+  },
+  {
+    "name": "Cherokee",
+    "source": "\u13a3\u13cf\u13f2",
+    "utf8_hex": "e18ea3e18f8fe18fb2",
+    "scalars": [
+      "U+13A3",
+      "U+13CF",
+      "U+13F2"
+    ],
+    "body": "S04+S09 S01+S16 S02+S05 S04+S09 S01+S17 S01+S17 S04+S09 S01+S17 S02+S22"
+  },
+  {
+    "name": "NFC accent",
+    "source": "\u00e9",
+    "utf8_hex": "c3a9",
+    "scalars": [
+      "U+00E9"
+    ],
+    "body": "S03+S08 S02+S12"
+  },
+  {
+    "name": "Decomposed accent",
+    "source": "e\u0301",
+    "utf8_hex": "65cc81",
+    "scalars": [
+      "U+0065",
+      "U+0301"
+    ],
+    "body": "S24+S10 S03+S18 S01+S01"
+  },
+  {
+    "name": "Emoji ZWJ cluster",
+    "source": "\ud83d\udc69\ud83c\udffd\u200d\ud83d\udcbb",
+    "utf8_hex": "f09f91a9f09f8fbde2808df09f92bb",
+    "scalars": [
+      "U+1F469",
+      "U+1F3FD",
+      "U+200D",
+      "U+1F4BB"
+    ],
+    "body": "S04+S25 S02+S01 S01+S19 S02+S12 S04+S25 S02+S01 S01+S17 S03+S01 S04+S10 S01+S00 S01+S15 S04+S25 S02+S01 S01+S20 S02+S31"
+  },
+  {
+    "name": "Typographic punctuation",
+    "source": "\u201cHello\u201d\u2014\u2026 \u20ac",
+    "utf8_hex": "e2809c48656c6c6fe2809de28094e280a620e282ac",
+    "scalars": [
+      "U+201C",
+      "U+0048",
+      "U+0065",
+      "U+006C",
+      "U+006C",
+      "U+006F",
+      "U+201D",
+      "U+2014",
+      "U+2026",
+      "U+0020",
+      "U+20AC"
+    ],
+    "body": "S04+S10 S01+S00 S01+S30 S21+S15 S24+S10 S27+S06 S27+S06 S00+S31 S04+S10 S01+S00 S01+S31 S04+S10 S01+S00 S01+S22 S04+S10 S01+S00 S02+S09 S22+S09 S04+S10 S01+S02 S02+S15"
+  },
+  {
+    "name": "Literal escape text",
+    "source": "\\u00E9 and \\u{1F600}",
+    "utf8_hex": "5c753030453920616e64205c757b31463630307d",
+    "scalars": [
+      "U+005C",
+      "U+0075",
+      "U+0030",
+      "U+0030",
+      "U+0045",
+      "U+0039",
+      "U+0020",
+      "U+0061",
+      "U+006E",
+      "U+0064",
+      "U+0020",
+      "U+005C",
+      "U+0075",
+      "U+007B",
+      "U+0031",
+      "U+0046",
+      "U+0036",
+      "U+0030",
+      "U+0030",
+      "U+007D"
+    ],
+    "body": "S29+S17 S31+S08 S27+S23 S27+S23 S00+S27 S02+S20 S22+S09 S28+S26 S24+S26 S21+S20 S22+S09 S29+S17 S31+S08 S04+S08 S19+S07 S08+S23 S07+S00 S27+S23 S27+S23 S23+S02"
+  },
+  {
+    "name": "Whitespace and controls",
+    "source": "A\r\n\tB\u0000",
+    "utf8_hex": "410d0a094200",
+    "scalars": [
+      "U+0041",
+      "U+000D",
+      "U+000A",
+      "U+0009",
+      "U+0042",
+      "U+0000"
+    ],
+    "body": "S28+S19 S27+S03 S23+S08 S29+S00 S12+S19 S00+S00"
+  },
+  {
+    "name": "Bidi isolation",
+    "source": "Name: \u2067\u05e9\u05dc\u05d5\u05dd\u2069.",
+    "utf8_hex": "4e616d653a20e281a7d7a9d79cd795d79de281a92e",
+    "scalars": [
+      "U+004E",
+      "U+0061",
+      "U+006D",
+      "U+0065",
+      "U+003A",
+      "U+0020",
+      "U+2067",
+      "U+05E9",
+      "U+05DC",
+      "U+05D5",
+      "U+05DD",
+      "U+2069",
+      "U+002E"
+    ],
+    "body": "S15+S27 S28+S26 S09+S04 S24+S10 S18+S13 S22+S09 S04+S10 S01+S01 S02+S10 S03+S30 S02+S12 S03+S30 S01+S30 S03+S30 S01+S23 S03+S30 S01+S31 S04+S10 S01+S01 S02+S12 S26+S09"
+  },
+  {
+    "name": "Scalar bounds",
+    "source": "\u0000\ud7ff\ue000\udbff\udfff",
+    "utf8_hex": "00ed9fbfee8080f48fbfbf",
+    "scalars": [
+      "U+0000",
+      "U+D7FF",
+      "U+E000",
+      "U+10FFFF"
+    ],
+    "body": "S00+S00 S04+S22 S02+S01 S03+S04 S04+S23 S01+S00 S01+S00 S04+S29 S01+S17 S03+S04 S03+S04"
+  }
+]
