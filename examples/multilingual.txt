@@ -1,0 +1,20 @@
+ASCII English: Read the marks.
+
+ASCII Indonesian: Halo dunia
+French: Bonjour, où est le café ?
+Spanish: ¡Hola! ¿Cómo estás?
+Portuguese: Olá, coração.
+German: Grüße, Straße.
+Polish: Zażółć gęślą jaźń.
+Vietnamese: Xin chào Việt Nam.
+Greek: Καλημέρα
+Russian: Привет, мир!
+Arabic and digits: مرحبًا 123
+Hebrew and digits: שלום 123
+Devanagari: नमस्ते
+Thai: สวัสดี
+Chinese: 你好，世界
+Japanese: こんにちは世界
+Korean: 안녕하세요
+Ethiopic: ሰላም
+Cherokee: ᎣᏏᏲ
