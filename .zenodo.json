@@ -1,0 +1,30 @@
+{
+  "title": "CaveScript32 2.0-rc.1 UTF-8 reference implementation",
+  "version": "2.0-rc.1",
+  "upload_type": "software",
+  "publication_date": "2026-11-02",
+  "creators": [
+    {
+      "name": "Moniz, Michael S.",
+      "affiliation": "SupoSystem"
+    }
+  ],
+  "description": "<p>Licenses are specified per component, not as a single blanket grant over this source archive. MIT applies to the current software, tests, tools, configuration, v2 mapping keys and fixture data listed in LICENSE_SCOPE.json. CC BY 4.0 applies to the listed current documentation; document code snippets are additionally MIT as stated in LICENSE. Ten unchanged historical v1 source fixtures retain their original notices and do not receive an assumed new grant. Third-party material and rights not held by Michael S. Moniz are excepted. Read LICENSE, LICENSE_SCOPE.json and NOTICE.md before reuse. No drawing or font assets are included. The record-level License Not Specified category indicates that no single archive-wide license is asserted; it does not remove or replace the component licenses.</p><p>CaveScript32 2.0-rc.1 is a release candidate of the UTF-8 reference implementation, not a stable or ratified registry. It preserves all 98 v1 pair assignments and adds 158 byte assignments, covering all 256 byte values while leaving 768 ordered pairs unassigned. The source archive includes the codec, versioned keys, examples, tests, documentation and ten preserved historical v1 fixtures. The current codec does not execute decoded content; the unchanged historical decoder retains its original opt-in execution feature.</p><p>CaveScript32 was conceived and created by Michael S. Moniz, developed with Claude and ChatGPT. Assistance credits describe provenance, not additional legal authorship. Detailed credits remain in NOTICE.md and the historical sources.</p>",
+  "access_right": "open",
+  "license": "notspecified",
+  "keywords": [
+    "CaveScript32",
+    "UTF-8",
+    "ordered-pair encoding",
+    "Python",
+    "reference implementation",
+    "release candidate"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://suposystem.ai/cavescript/",
+      "relation": "isDocumentedBy"
+    }
+  ],
+  "notes": "This GitHub release is based on the reviewed source commit 664eb5bdbfa5d9ce7c301804e1c60d2323576f5d, with release metadata preparation recorded in the release commit. Source code and mapping changes are not implied by metadata preparation. The GitHub tag identifies the exact archived release commit. No standalone v1 deposit is being created by this release."
+}

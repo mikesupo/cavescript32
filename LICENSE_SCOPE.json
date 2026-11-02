@@ -26,6 +26,11 @@
       "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
     },
     {
+      "path": ".zenodo.json",
+      "license_or_status": "CC-BY-4.0",
+      "scope": "Current documentation/release metadata, subject to preserved-source and third-party exceptions; its record-level license category does not replace component licenses"
+    },
+    {
       "path": "CHANGELOG.md",
       "license_or_status": "CC-BY-4.0",
       "scope": "Current documentation, subject to preserved-source and third-party exceptions"
