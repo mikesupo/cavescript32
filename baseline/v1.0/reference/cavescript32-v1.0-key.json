@@ -1,0 +1,1119 @@
+{
+  "name": "CaveScript32",
+  "encoding_version": "1.0",
+  "reading_key_url": "https://suposystem.ai/cavescript/",
+  "description": "Modern character assignments and drawings inspired by prehistoric signs. These are not recovered ancient meanings.",
+  "reading_order": "Read cells left to right, top to bottom. Each cell contains two ordered signs, left then right. SPACE, LF, TAB and CR each have their own pair. Line wrapping in an image is layout, not an encoded newline.",
+  "signs": [
+    {
+      "id": "S00",
+      "name": "Asterisk"
+    },
+    {
+      "id": "S01",
+      "name": "Aviform"
+    },
+    {
+      "id": "S02",
+      "name": "Circle"
+    },
+    {
+      "id": "S03",
+      "name": "Claviform"
+    },
+    {
+      "id": "S04",
+      "name": "Cordiform"
+    },
+    {
+      "id": "S05",
+      "name": "Crosshatch"
+    },
+    {
+      "id": "S06",
+      "name": "Cruciform"
+    },
+    {
+      "id": "S07",
+      "name": "Cupule"
+    },
+    {
+      "id": "S08",
+      "name": "Dot"
+    },
+    {
+      "id": "S09",
+      "name": "Finger Fluting"
+    },
+    {
+      "id": "S10",
+      "name": "Flabelliform"
+    },
+    {
+      "id": "S11",
+      "name": "Half-Circle"
+    },
+    {
+      "id": "S12",
+      "name": "Line"
+    },
+    {
+      "id": "S13",
+      "name": "Negative Hand"
+    },
+    {
+      "id": "S14",
+      "name": "Open-Angle"
+    },
+    {
+      "id": "S15",
+      "name": "Oval"
+    },
+    {
+      "id": "S16",
+      "name": "Pectiform"
+    },
+    {
+      "id": "S17",
+      "name": "Penniform"
+    },
+    {
+      "id": "S18",
+      "name": "Positive Hand"
+    },
+    {
+      "id": "S19",
+      "name": "Quadrangle"
+    },
+    {
+      "id": "S20",
+      "name": "Reniform"
+    },
+    {
+      "id": "S21",
+      "name": "Scalariform"
+    },
+    {
+      "id": "S22",
+      "name": "Segmented Cruciform"
+    },
+    {
+      "id": "S23",
+      "name": "Serpentiform"
+    },
+    {
+      "id": "S24",
+      "name": "Spanish Tectiform"
+    },
+    {
+      "id": "S25",
+      "name": "Spiral"
+    },
+    {
+      "id": "S26",
+      "name": "Tectiform"
+    },
+    {
+      "id": "S27",
+      "name": "Triangle"
+    },
+    {
+      "id": "S28",
+      "name": "Unciform"
+    },
+    {
+      "id": "S29",
+      "name": "W-Sign"
+    },
+    {
+      "id": "S30",
+      "name": "Y-Sign"
+    },
+    {
+      "id": "S31",
+      "name": "Zigzag"
+    }
+  ],
+  "characters": [
+    {
+      "character": " ",
+      "label": "SPACE",
+      "ascii": 32,
+      "pair": "S22+S09",
+      "signs": [
+        22,
+        9
+      ]
+    },
+    {
+      "character": "!",
+      "label": "!",
+      "ascii": 33,
+      "pair": "S18+S16",
+      "signs": [
+        18,
+        16
+      ]
+    },
+    {
+      "character": "\"",
+      "label": "\"",
+      "ascii": 34,
+      "pair": "S11+S19",
+      "signs": [
+        11,
+        19
+      ]
+    },
+    {
+      "character": "#",
+      "label": "#",
+      "ascii": 35,
+      "pair": "S19+S26",
+      "signs": [
+        19,
+        26
+      ]
+    },
+    {
+      "character": "$",
+      "label": "$",
+      "ascii": 36,
+      "pair": "S28+S27",
+      "signs": [
+        28,
+        27
+      ]
+    },
+    {
+      "character": "%",
+      "label": "%",
+      "ascii": 37,
+      "pair": "S21+S17",
+      "signs": [
+        21,
+        17
+      ]
+    },
+    {
+      "character": "&",
+      "label": "&",
+      "ascii": 38,
+      "pair": "S22+S21",
+      "signs": [
+        22,
+        21
+      ]
+    },
+    {
+      "character": "'",
+      "label": "'",
+      "ascii": 39,
+      "pair": "S15+S30",
+      "signs": [
+        15,
+        30
+      ]
+    },
+    {
+      "character": "(",
+      "label": "(",
+      "ascii": 40,
+      "pair": "S30+S29",
+      "signs": [
+        30,
+        29
+      ]
+    },
+    {
+      "character": ")",
+      "label": ")",
+      "ascii": 41,
+      "pair": "S11+S14",
+      "signs": [
+        11,
+        14
+      ]
+    },
+    {
+      "character": "*",
+      "label": "*",
+      "ascii": 42,
+      "pair": "S15+S08",
+      "signs": [
+        15,
+        8
+      ]
+    },
+    {
+      "character": "+",
+      "label": "+",
+      "ascii": 43,
+      "pair": "S30+S27",
+      "signs": [
+        30,
+        27
+      ]
+    },
+    {
+      "character": ",",
+      "label": ",",
+      "ascii": 44,
+      "pair": "S01+S07",
+      "signs": [
+        1,
+        7
+      ]
+    },
+    {
+      "character": "-",
+      "label": "-",
+      "ascii": 45,
+      "pair": "S31+S01",
+      "signs": [
+        31,
+        1
+      ]
+    },
+    {
+      "character": ".",
+      "label": ".",
+      "ascii": 46,
+      "pair": "S26+S09",
+      "signs": [
+        26,
+        9
+      ]
+    },
+    {
+      "character": "/",
+      "label": "/",
+      "ascii": 47,
+      "pair": "S20+S25",
+      "signs": [
+        20,
+        25
+      ]
+    },
+    {
+      "character": "0",
+      "label": "0",
+      "ascii": 48,
+      "pair": "S27+S23",
+      "signs": [
+        27,
+        23
+      ]
+    },
+    {
+      "character": "1",
+      "label": "1",
+      "ascii": 49,
+      "pair": "S19+S07",
+      "signs": [
+        19,
+        7
+      ]
+    },
+    {
+      "character": "2",
+      "label": "2",
+      "ascii": 50,
+      "pair": "S30+S11",
+      "signs": [
+        30,
+        11
+      ]
+    },
+    {
+      "character": "3",
+      "label": "3",
+      "ascii": 51,
+      "pair": "S16+S30",
+      "signs": [
+        16,
+        30
+      ]
+    },
+    {
+      "character": "4",
+      "label": "4",
+      "ascii": 52,
+      "pair": "S06+S03",
+      "signs": [
+        6,
+        3
+      ]
+    },
+    {
+      "character": "5",
+      "label": "5",
+      "ascii": 53,
+      "pair": "S22+S31",
+      "signs": [
+        22,
+        31
+      ]
+    },
+    {
+      "character": "6",
+      "label": "6",
+      "ascii": 54,
+      "pair": "S07+S00",
+      "signs": [
+        7,
+        0
+      ]
+    },
+    {
+      "character": "7",
+      "label": "7",
+      "ascii": 55,
+      "pair": "S11+S22",
+      "signs": [
+        11,
+        22
+      ]
+    },
+    {
+      "character": "8",
+      "label": "8",
+      "ascii": 56,
+      "pair": "S03+S02",
+      "signs": [
+        3,
+        2
+      ]
+    },
+    {
+      "character": "9",
+      "label": "9",
+      "ascii": 57,
+      "pair": "S02+S20",
+      "signs": [
+        2,
+        20
+      ]
+    },
+    {
+      "character": ":",
+      "label": ":",
+      "ascii": 58,
+      "pair": "S18+S13",
+      "signs": [
+        18,
+        13
+      ]
+    },
+    {
+      "character": ";",
+      "label": ";",
+      "ascii": 59,
+      "pair": "S08+S25",
+      "signs": [
+        8,
+        25
+      ]
+    },
+    {
+      "character": "<",
+      "label": "<",
+      "ascii": 60,
+      "pair": "S19+S15",
+      "signs": [
+        19,
+        15
+      ]
+    },
+    {
+      "character": "=",
+      "label": "=",
+      "ascii": 61,
+      "pair": "S24+S13",
+      "signs": [
+        24,
+        13
+      ]
+    },
+    {
+      "character": ">",
+      "label": ">",
+      "ascii": 62,
+      "pair": "S02+S08",
+      "signs": [
+        2,
+        8
+      ]
+    },
+    {
+      "character": "?",
+      "label": "?",
+      "ascii": 63,
+      "pair": "S03+S25",
+      "signs": [
+        3,
+        25
+      ]
+    },
+    {
+      "character": "@",
+      "label": "@",
+      "ascii": 64,
+      "pair": "S06+S14",
+      "signs": [
+        6,
+        14
+      ]
+    },
+    {
+      "character": "A",
+      "label": "A",
+      "ascii": 65,
+      "pair": "S28+S19",
+      "signs": [
+        28,
+        19
+      ]
+    },
+    {
+      "character": "B",
+      "label": "B",
+      "ascii": 66,
+      "pair": "S12+S19",
+      "signs": [
+        12,
+        19
+      ]
+    },
+    {
+      "character": "C",
+      "label": "C",
+      "ascii": 67,
+      "pair": "S17+S07",
+      "signs": [
+        17,
+        7
+      ]
+    },
+    {
+      "character": "D",
+      "label": "D",
+      "ascii": 68,
+      "pair": "S16+S13",
+      "signs": [
+        16,
+        13
+      ]
+    },
+    {
+      "character": "E",
+      "label": "E",
+      "ascii": 69,
+      "pair": "S00+S27",
+      "signs": [
+        0,
+        27
+      ]
+    },
+    {
+      "character": "F",
+      "label": "F",
+      "ascii": 70,
+      "pair": "S08+S23",
+      "signs": [
+        8,
+        23
+      ]
+    },
+    {
+      "character": "G",
+      "label": "G",
+      "ascii": 71,
+      "pair": "S26+S08",
+      "signs": [
+        26,
+        8
+      ]
+    },
+    {
+      "character": "H",
+      "label": "H",
+      "ascii": 72,
+      "pair": "S21+S15",
+      "signs": [
+        21,
+        15
+      ]
+    },
+    {
+      "character": "I",
+      "label": "I",
+      "ascii": 73,
+      "pair": "S03+S11",
+      "signs": [
+        3,
+        11
+      ]
+    },
+    {
+      "character": "J",
+      "label": "J",
+      "ascii": 74,
+      "pair": "S23+S21",
+      "signs": [
+        23,
+        21
+      ]
+    },
+    {
+      "character": "K",
+      "label": "K",
+      "ascii": 75,
+      "pair": "S14+S24",
+      "signs": [
+        14,
+        24
+      ]
+    },
+    {
+      "character": "L",
+      "label": "L",
+      "ascii": 76,
+      "pair": "S20+S11",
+      "signs": [
+        20,
+        11
+      ]
+    },
+    {
+      "character": "M",
+      "label": "M",
+      "ascii": 77,
+      "pair": "S19+S02",
+      "signs": [
+        19,
+        2
+      ]
+    },
+    {
+      "character": "N",
+      "label": "N",
+      "ascii": 78,
+      "pair": "S15+S27",
+      "signs": [
+        15,
+        27
+      ]
+    },
+    {
+      "character": "O",
+      "label": "O",
+      "ascii": 79,
+      "pair": "S09+S06",
+      "signs": [
+        9,
+        6
+      ]
+    },
+    {
+      "character": "P",
+      "label": "P",
+      "ascii": 80,
+      "pair": "S15+S03",
+      "signs": [
+        15,
+        3
+      ]
+    },
+    {
+      "character": "Q",
+      "label": "Q",
+      "ascii": 81,
+      "pair": "S14+S21",
+      "signs": [
+        14,
+        21
+      ]
+    },
+    {
+      "character": "R",
+      "label": "R",
+      "ascii": 82,
+      "pair": "S14+S20",
+      "signs": [
+        14,
+        20
+      ]
+    },
+    {
+      "character": "S",
+      "label": "S",
+      "ascii": 83,
+      "pair": "S01+S14",
+      "signs": [
+        1,
+        14
+      ]
+    },
+    {
+      "character": "T",
+      "label": "T",
+      "ascii": 84,
+      "pair": "S21+S21",
+      "signs": [
+        21,
+        21
+      ]
+    },
+    {
+      "character": "U",
+      "label": "U",
+      "ascii": 85,
+      "pair": "S27+S09",
+      "signs": [
+        27,
+        9
+      ]
+    },
+    {
+      "character": "V",
+      "label": "V",
+      "ascii": 86,
+      "pair": "S05+S29",
+      "signs": [
+        5,
+        29
+      ]
+    },
+    {
+      "character": "W",
+      "label": "W",
+      "ascii": 87,
+      "pair": "S21+S28",
+      "signs": [
+        21,
+        28
+      ]
+    },
+    {
+      "character": "X",
+      "label": "X",
+      "ascii": 88,
+      "pair": "S19+S11",
+      "signs": [
+        19,
+        11
+      ]
+    },
+    {
+      "character": "Y",
+      "label": "Y",
+      "ascii": 89,
+      "pair": "S23+S11",
+      "signs": [
+        23,
+        11
+      ]
+    },
+    {
+      "character": "Z",
+      "label": "Z",
+      "ascii": 90,
+      "pair": "S22+S03",
+      "signs": [
+        22,
+        3
+      ]
+    },
+    {
+      "character": "[",
+      "label": "[",
+      "ascii": 91,
+      "pair": "S16+S12",
+      "signs": [
+        16,
+        12
+      ]
+    },
+    {
+      "character": "\\",
+      "label": "\\",
+      "ascii": 92,
+      "pair": "S29+S17",
+      "signs": [
+        29,
+        17
+      ]
+    },
+    {
+      "character": "]",
+      "label": "]",
+      "ascii": 93,
+      "pair": "S23+S12",
+      "signs": [
+        23,
+        12
+      ]
+    },
+    {
+      "character": "^",
+      "label": "^",
+      "ascii": 94,
+      "pair": "S28+S03",
+      "signs": [
+        28,
+        3
+      ]
+    },
+    {
+      "character": "_",
+      "label": "_",
+      "ascii": 95,
+      "pair": "S17+S00",
+      "signs": [
+        17,
+        0
+      ]
+    },
+    {
+      "character": "`",
+      "label": "`",
+      "ascii": 96,
+      "pair": "S06+S16",
+      "signs": [
+        6,
+        16
+      ]
+    },
+    {
+      "character": "a",
+      "label": "a",
+      "ascii": 97,
+      "pair": "S28+S26",
+      "signs": [
+        28,
+        26
+      ]
+    },
+    {
+      "character": "b",
+      "label": "b",
+      "ascii": 98,
+      "pair": "S04+S14",
+      "signs": [
+        4,
+        14
+      ]
+    },
+    {
+      "character": "c",
+      "label": "c",
+      "ascii": 99,
+      "pair": "S29+S19",
+      "signs": [
+        29,
+        19
+      ]
+    },
+    {
+      "character": "d",
+      "label": "d",
+      "ascii": 100,
+      "pair": "S21+S20",
+      "signs": [
+        21,
+        20
+      ]
+    },
+    {
+      "character": "e",
+      "label": "e",
+      "ascii": 101,
+      "pair": "S24+S10",
+      "signs": [
+        24,
+        10
+      ]
+    },
+    {
+      "character": "f",
+      "label": "f",
+      "ascii": 102,
+      "pair": "S11+S07",
+      "signs": [
+        11,
+        7
+      ]
+    },
+    {
+      "character": "g",
+      "label": "g",
+      "ascii": 103,
+      "pair": "S24+S17",
+      "signs": [
+        24,
+        17
+      ]
+    },
+    {
+      "character": "h",
+      "label": "h",
+      "ascii": 104,
+      "pair": "S16+S01",
+      "signs": [
+        16,
+        1
+      ]
+    },
+    {
+      "character": "i",
+      "label": "i",
+      "ascii": 105,
+      "pair": "S27+S25",
+      "signs": [
+        27,
+        25
+      ]
+    },
+    {
+      "character": "j",
+      "label": "j",
+      "ascii": 106,
+      "pair": "S25+S05",
+      "signs": [
+        25,
+        5
+      ]
+    },
+    {
+      "character": "k",
+      "label": "k",
+      "ascii": 107,
+      "pair": "S26+S13",
+      "signs": [
+        26,
+        13
+      ]
+    },
+    {
+      "character": "l",
+      "label": "l",
+      "ascii": 108,
+      "pair": "S27+S06",
+      "signs": [
+        27,
+        6
+      ]
+    },
+    {
+      "character": "m",
+      "label": "m",
+      "ascii": 109,
+      "pair": "S09+S04",
+      "signs": [
+        9,
+        4
+      ]
+    },
+    {
+      "character": "n",
+      "label": "n",
+      "ascii": 110,
+      "pair": "S24+S26",
+      "signs": [
+        24,
+        26
+      ]
+    },
+    {
+      "character": "o",
+      "label": "o",
+      "ascii": 111,
+      "pair": "S00+S31",
+      "signs": [
+        0,
+        31
+      ]
+    },
+    {
+      "character": "p",
+      "label": "p",
+      "ascii": 112,
+      "pair": "S28+S30",
+      "signs": [
+        28,
+        30
+      ]
+    },
+    {
+      "character": "q",
+      "label": "q",
+      "ascii": 113,
+      "pair": "S23+S30",
+      "signs": [
+        23,
+        30
+      ]
+    },
+    {
+      "character": "r",
+      "label": "r",
+      "ascii": 114,
+      "pair": "S17+S28",
+      "signs": [
+        17,
+        28
+      ]
+    },
+    {
+      "character": "s",
+      "label": "s",
+      "ascii": 115,
+      "pair": "S29+S29",
+      "signs": [
+        29,
+        29
+      ]
+    },
+    {
+      "character": "t",
+      "label": "t",
+      "ascii": 116,
+      "pair": "S21+S23",
+      "signs": [
+        21,
+        23
+      ]
+    },
+    {
+      "character": "u",
+      "label": "u",
+      "ascii": 117,
+      "pair": "S31+S08",
+      "signs": [
+        31,
+        8
+      ]
+    },
+    {
+      "character": "v",
+      "label": "v",
+      "ascii": 118,
+      "pair": "S05+S13",
+      "signs": [
+        5,
+        13
+      ]
+    },
+    {
+      "character": "w",
+      "label": "w",
+      "ascii": 119,
+      "pair": "S26+S16",
+      "signs": [
+        26,
+        16
+      ]
+    },
+    {
+      "character": "x",
+      "label": "x",
+      "ascii": 120,
+      "pair": "S21+S00",
+      "signs": [
+        21,
+        0
+      ]
+    },
+    {
+      "character": "y",
+      "label": "y",
+      "ascii": 121,
+      "pair": "S31+S17",
+      "signs": [
+        31,
+        17
+      ]
+    },
+    {
+      "character": "z",
+      "label": "z",
+      "ascii": 122,
+      "pair": "S08+S14",
+      "signs": [
+        8,
+        14
+      ]
+    },
+    {
+      "character": "{",
+      "label": "{",
+      "ascii": 123,
+      "pair": "S04+S08",
+      "signs": [
+        4,
+        8
+      ]
+    },
+    {
+      "character": "|",
+      "label": "|",
+      "ascii": 124,
+      "pair": "S20+S12",
+      "signs": [
+        20,
+        12
+      ]
+    },
+    {
+      "character": "}",
+      "label": "}",
+      "ascii": 125,
+      "pair": "S23+S02",
+      "signs": [
+        23,
+        2
+      ]
+    },
+    {
+      "character": "~",
+      "label": "~",
+      "ascii": 126,
+      "pair": "S27+S08",
+      "signs": [
+        27,
+        8
+      ]
+    },
+    {
+      "character": "\n",
+      "label": "LF / newline",
+      "ascii": 10,
+      "pair": "S23+S08",
+      "signs": [
+        23,
+        8
+      ]
+    },
+    {
+      "character": "\t",
+      "label": "TAB",
+      "ascii": 9,
+      "pair": "S29+S00",
+      "signs": [
+        29,
+        0
+      ]
+    },
+    {
+      "character": "\r",
+      "label": "CR",
+      "ascii": 13,
+      "pair": "S27+S03",
+      "signs": [
+        27,
+        3
+      ]
+    }
+  ]
+}
