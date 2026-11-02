@@ -1,0 +1,28 @@
+{
+  "verified_utc_date": "2026-11-02",
+  "method": "Read-only official repository refs, commits and action.yml at resolved commit; no CI triggered by this check",
+  "actions": [
+    {
+      "repository": "actions/checkout",
+      "ref": "refs/tags/v7",
+      "commit_sha": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+      "ref_url": "https://api.github.com/repos/actions/checkout/git/ref/tags/v7",
+      "commit_url": "https://api.github.com/repos/actions/checkout/git/commits/3d3c42e5aac5ba805825da76410c181273ba90b1",
+      "commit_date": "2026-07-17T18:45:11Z",
+      "signature_verified_as_reported": true,
+      "action_source_url": "https://raw.githubusercontent.com/actions/checkout/3d3c42e5aac5ba805825da76410c181273ba90b1/action.yml",
+      "action_yml_sha256": "d59219cb79590abdb877deaa14e3b65a00c05318bf5a6f3b989b9162b5d08c35"
+    },
+    {
+      "repository": "actions/setup-python",
+      "ref": "refs/tags/v7",
+      "commit_sha": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+      "ref_url": "https://api.github.com/repos/actions/setup-python/git/ref/tags/v7",
+      "commit_url": "https://api.github.com/repos/actions/setup-python/git/commits/6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+      "commit_date": "2026-10-22T02:33:06Z",
+      "signature_verified_as_reported": true,
+      "action_source_url": "https://raw.githubusercontent.com/actions/setup-python/6d4fd22b20465ccc0f7354476588e8df7c9ca0e0/action.yml",
+      "action_yml_sha256": "0829b3f54d769f8b25cefd4d856c735bc8e097d6597835b838ebb4da497c838d"
+    }
+  ]
+}
