@@ -1,0 +1,37 @@
+# Manual tests only. No publishing, deployment, secrets or artifact-upload step.
+# Trigger only after confirming existing private Actions allowance; no paid overage authorized.
+name: CaveScript32 rc1 compatibility
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: cavescript32-rc1-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  test:
+    timeout-minutes: 5
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ['3.12']
+        include:
+          - os: ubuntu-latest
+            python: '3.9'
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Check out exact candidate
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7, verified 2026-11-02
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7, verified 2026-11-02
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Record interpreter
+        run: python --version
+      - name: Verify assignments and preserved source fixtures
+        run: python tools/check_allocation.py
+      - name: Test Unicode and all supported profiles
+        run: python -m unittest discover -s tests -v
