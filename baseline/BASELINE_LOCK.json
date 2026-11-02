@@ -1,0 +1,18 @@
+{
+  "tag": "CaveScript32-v1.0-source-fixtures-2026-10-30",
+  "source_baseline_tag": "CaveScript32-v1.0-baseline-2026-10-30",
+  "status": "Immutable source-fixture subset; full original archive remains preserved separately",
+  "selection_reason": "Only original text/code/key fixtures needed for interoperability tests; no PDFs, correspondence or entire source archive in repository",
+  "files": {
+    "SOURCES_AND_CREDITS.txt": "c023c4172c6db620dfe45d22dfc48e3abda7c656cce978ca4a09409282f597a2",
+    "examples/ANSWERS.txt": "6e75d06f8a83f0aab4ea98bdedee1379c1c83fa647f0686438b728962cfab0af",
+    "examples/ASK.txt": "fc68ad0172498487b2fb3e682f7c976b9d390c4ac441d54a2c4fbfe32f73b3f7",
+    "examples/OPEN.txt": "9e8649780893d2d9cdfbcca19a5ff2a0dc885a28acd4f1d9b5c40397bf04ab6f",
+    "examples/READ.txt": "6620103a40a9754ffd6852d071e13c7360197ffe7d61f24da3e3992a56f77a95",
+    "examples/SAMPLE.txt": "4bae8056e5aa92fdce85235411fb57a741184a0f63fcb8bd33e39d517ca338e5",
+    "first-program/cavescript_run.py": "0d5217d9ab81988b43e8e5c12498dee19b66418cf21ca378ed39a2f9916394db",
+    "first-program/marks.py": "cc763864bf57a93f0aec02520e4e9b8d0a3011a90ef979b1b1f150563576766c",
+    "first-program/marks_cavescript32.txt": "d261e640e6d5dd3fa12bf6b6982bf9878697d714c09f81a01a6f31e33f263091",
+    "reference/cavescript32-v1.0-key.json": "3f2bc7b53c4fcc7c4409e5aff929a70b5639b7948a2abe32c27eac668be0e211"
+  }
+}
