@@ -1,0 +1,10 @@
+Published reading examples
+
+READ.txt -> READ
+OPEN.txt -> OPEN
+ASK.txt -> ASK
+SAMPLE.txt -> The old signs have a new story.
+
+The text-file row ending is layout, not an encoded LF. None of these
+four messages includes a trailing newline character in its mapping.
+See SOURCES_AND_CREDITS.txt for the lesson and worksheet sources.
