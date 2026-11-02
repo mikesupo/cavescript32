@@ -1,0 +1,13 @@
+{
+  "retrieved_utc_date": "2026-11-02",
+  "MIT": {
+    "source": "https://opensource.org/license/mit",
+    "method": "Exact four official license paragraphs, with only copyright placeholder filled as 2026 Michael S. Moniz; title and paragraph whitespace formatted as plain text",
+    "sha256": "b5e032e97417de1c62058b3c8890ffacb583f6332240308f4b9826cf27060957"
+  },
+  "CC-BY-4.0": {
+    "source": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+    "method": "Official plain-text legal code copied byte-for-byte",
+    "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+  }
+}
