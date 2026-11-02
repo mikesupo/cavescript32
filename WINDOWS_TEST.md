@@ -1,8 +1,9 @@
 # Windows test — rc1 source tree
 
-No Windows result is claimed until these commands or the Windows CI job actually
-finish successfully. This handoff uses an already obtained source tree and existing
-Python; it creates no access, installs nothing and changes no execution policy.
+The hosted Windows/Python 3.12 job passed in [run 41382272362](https://github.com/mikesupo/cavescript32/actions/runs/41382272362) for commit
+`e90cb6958e35b033cd2cae062af0330f29ffdc62`. That is not a claim about a personal Windows computer. The optional
+local steps below use an already obtained source tree and existing Python;
+they create no access, install nothing and change no execution policy.
 
 Open PowerShell in this repository folder. If `py` is absent but an existing
 `python --version` reports Python 3.9+, substitute `python` for `py -3` consistently.

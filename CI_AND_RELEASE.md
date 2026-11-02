@@ -1,8 +1,10 @@
-# Manual CI and public-release hold
+# Manual CI and release-candidate boundaries
 
-This source tree is a **private release candidate**, not a public registry update.
-No published release, deployment or public mapping change follows automatically
-from a test run. Windows/macOS results are pending until an actual run completes.
+This source tree presents **2.0-rc.1**, a release candidate, not a stable or
+ratified registry. A test run does not change the original v1 public reading key.
+[Run 41382272362](https://github.com/mikesupo/cavescript32/actions/runs/41382272362) passed the four-job matrix for exact source commit
+`e90cb6958e35b033cd2cae062af0330f29ffdc62`. Later credit/documentation changes leave code, keys, tests and
+workflow unchanged but do not claim a new CI run for their own revision.
 
 ## Bounded manual workflow
 
@@ -23,14 +25,19 @@ verified signature. This verifies identity/provenance, not a complete security
 audit of action internals. `.github/action-pins.json` records the public evidence.
 No account identifiers, tokens or private evidence captures are included.
 
-## Before public publication
+## Before a stable release or future profile change
 
 1. Review results for the exact candidate commit, including Windows and macOS.
    Do not call an unrun matrix a pass. Record any intentionally unsupported platform.
-2. Confirm final audience/visibility and explicit public-publication approval.
+2. Deliberately identify the release audience, version and status; making source
+   public is not equivalent to declaring a stable registry.
 3. Finalize public version/profile naming and key metadata deliberately. Preserve
    both legacy v1 and draft1 compatibility; never silently change a pinned key.
 4. Recheck mapping equality, license scope, checksums and the exact release assets.
+
+The pinned key and CLI retain their original private-preparation status wording
+as part of the frozen RC artifact. Repository visibility is separate; do not
+silently edit a pinned key just to change a display label.
 
 The owner already confirmed no outside reservations and delegated the applied
 MIT software/data and CC BY 4.0 documentation choice. Those decisions need not be

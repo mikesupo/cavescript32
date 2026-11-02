@@ -1,5 +1,17 @@
 # Attribution and preserved material
 
+## Preferred credit
+
+**CaveScript32 — conceived and created by Michael S. Moniz, developed with Claude and ChatGPT.**
+
+This sentence is a suggested way to credit the project, not mandatory wording or
+an added license restriction. Software/data users follow MIT notice-preservation;
+document/art users follow CC BY 4.0 attribution in a reasonable form.
+
+If you use CaveScript32, Michael would enjoy seeing your project: [mike@suposystem.ai](mailto:mike@suposystem.ai). Sharing a link or getting in touch is entirely optional; no notification, registration or extra permission is required by this invitation.
+
+## Detailed provenance
+
 CaveScript32 script, modern sign drawings, ordered-pair design and original v1
 key: Michael S. Moniz / SupoSystem.ai. First Program idea/code: Claude, browser
 session, 2026; second reading/correspondence: Claude, later session, 2026. Original
@@ -20,10 +32,12 @@ CC BY 4.0 document attribution: Michael S. Moniz / SupoSystem.ai, “CaveScript3
 with the supplied provenance credits and source link below; include the license
 and indicate modifications when sharing adaptations as required by its terms.
 
-No standalone drawings or font assets are included. The separate owner-approved
-CC BY 4.0 permission for Michael's original drawings is not revoked, but this
-repository grants no rights over third-party images, prehistoric signs, or font
-glyphs. Inspiration by sign categories does not establish third-party clearance.
+Michael S. Moniz's original CaveScript32 sign-drawing components are licensed
+under CC BY 4.0. That grant covers those original components only—not all artwork,
+third-party source images, prehistoric signs or any font. No standalone drawings,
+PDFs or font assets are included in this repository. Archived source files keep
+their notices; there is no blanket grant over unrelated archive content or rights
+Michael does not hold. Inspiration by sign categories is not third-party clearance.
 
 Source: https://suposystem.ai/cavescript/
 MIT terms: https://opensource.org/license/mit

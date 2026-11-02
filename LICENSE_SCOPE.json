@@ -1,7 +1,7 @@
 {
   "owner": "Michael S. Moniz / SupoSystem.ai",
   "version": "2.0-rc.1",
-  "application": "Scoped grants; no permission for the assistant to publish a release or change a public mapping",
+  "application": "Scoped MIT/CC BY 4.0 grants for identified owner-held rights; per-file archival and third-party exceptions apply",
   "software_data": "MIT",
   "documentation": "CC-BY-4.0",
   "files": [
@@ -253,6 +253,12 @@
   ],
   "embedded_document_code": "Code snippets authored for current Markdown are additionally available under MIT; surrounding prose CC BY 4.0",
   "archives": "Only ten selected original v1 files included; original terms/notices preserved; full previous archive held separately",
-  "drawing_font_scope": "No drawing, PDF or font assets in this tree. Separate owner-approved original-drawing permission is not revoked or expanded here. No third-party glyph/art clearance is implied.",
-  "third_party_exception": "No grant of rights not held or authorized by owner; third-party material retains its own applicable terms"
+  "drawing_font_scope": "CC BY 4.0 applies to Michael S. Moniz's original CaveScript32 sign-drawing components only, not unrelated artwork, third-party source images or fonts. No drawing, PDF or font assets are included in this tree. Archived notices remain unchanged.",
+  "third_party_exception": "No grant of rights not held or authorized by owner; third-party material retains its own applicable terms",
+  "preferred_credit": "CaveScript32 \u2014 conceived and created by Michael S. Moniz, developed with Claude and ChatGPT.",
+  "optional_usage_invitation": {
+    "contact": "mike@suposystem.ai",
+    "purpose": "Optional project links or usage stories",
+    "condition": "No notification, registration or additional permission requirement; not an extra MIT or CC BY 4.0 restriction"
+  }
 }

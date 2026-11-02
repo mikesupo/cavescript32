@@ -1,6 +1,8 @@
 # CaveScript32 2.0-rc.1 / UTF-8
 
-Private release-candidate specification, 2 November 2026. MUST/MUST NOT below
+Release-candidate specification, first prepared privately on 2 November 2026.
+The pinned key/CLI retain that preparation label; it is not repository access
+control or a claim of a stable public registry. MUST/MUST NOT below
 mean conformance to this candidate, not proof of a published standard.
 
 ## Assignments and provenance

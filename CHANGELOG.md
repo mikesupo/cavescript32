@@ -1,5 +1,16 @@
 # Changelog
 
+## Documentation/credit clarification — 2 November 2026
+
+- Prominent preferred credit for Michael S. Moniz and the Claude/ChatGPT collaboration.
+- Optional invitation to share project links; no notification or added license condition.
+- Direct CC BY 4.0 wording for Michael's original drawing components, not all artwork;
+  no assets/fonts or blanket third-party grant added. Full license texts unchanged.
+- Record four green hosted jobs for e90cb6958e35b033cd2cae062af0330f29ffdc62; distinguish
+  that tested source from the later docs-only revision. Code/key/test/workflow bytes
+  and the 2.0-rc.1 profile remain unchanged.
+
+
 ## 2.0-rc.1 — private candidate, 2 November 2026
 
 - New current key/version/header/status with all 256 assignments unchanged.

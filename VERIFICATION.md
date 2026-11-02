@@ -16,7 +16,18 @@ Local environment: Python 3.12.14 on Linux, 2 November 2026.
 - Official action refs/commit objects/action files were resolved read-only and
   immutable SHAs pinned. No CI result is inferred from that provenance check.
 
-The suite has not been claimed to pass on Windows/macOS or a hosted runner until
-an actual run supplies that evidence. An unrun workflow is not a result. Private
-Actions allowance must be checked before triggering; no paid overage authorized.
-The purpose-written summary contains no private review correspondence or raw logs.
+## Hosted cross-platform result
+
+[Run 41382272362](https://github.com/mikesupo/cavescript32/actions/runs/41382272362) completed successfully for exact source commit
+`e90cb6958e35b033cd2cae062af0330f29ffdc62` in [mikesupo/cavescript32](https://github.com/mikesupo/cavescript32).
+All four jobs passed: Ubuntu/Linux, Windows and macOS with Python 3.12,
+plus Ubuntu/Linux with Python 3.9. A pre-run verification compared all 49 remote
+files byte-for-byte with the clean candidate before the run.
+
+This is a hosted-runner result, not a claim that a particular user's Windows or
+Mac computer was accessed or tested. The subsequent preferred-credit, optional-
+contact and license-scope clarification changes only documentation/metadata and
+checksums. Code, keys, tests, examples, baseline fixtures and workflow remain
+byte-identical to the green source commit; no fresh CI run for that later
+documentation-only revision is implied. The exact revision boundary is retained
+rather than labeling every future commit “tested.”
