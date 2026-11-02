@@ -1,0 +1,3480 @@
+{
+  "name": "CaveScript32",
+  "version": "2.0-rc.1",
+  "profile": "UTF-8",
+  "status": "PRIVATE RELEASE CANDIDATE \u2014 NOT A PUBLISHED REGISTRY",
+  "header": "#!CaveScript32 version=2.0-rc.1 profile=UTF-8",
+  "baseline_tag": "CaveScript32-v1.0-baseline-2026-10-30",
+  "baseline_key_sha256": "3f2bc7b53c4fcc7c4409e5aff929a70b5639b7948a2abe32c27eac668be0e211",
+  "allocation": "Preserve all 98 v1.0 pairs. Pair remaining byte values in ascending numeric order with the first 158 unassigned ordered pairs in numeric (left, right) order.",
+  "registry_scope": "Published v1 JSON, tables and decoder checked 2026-11-02 against the frozen v1 baseline; all 98 assignments match. Owner separately confirmed on 2026-11-02 that no unused pairs were reserved elsewhere. This is not independent global-registry certification and is not a public release.",
+  "signs": [
+    {
+      "id": "S00",
+      "name": "Asterisk"
+    },
+    {
+      "id": "S01",
+      "name": "Aviform"
+    },
+    {
+      "id": "S02",
+      "name": "Circle"
+    },
+    {
+      "id": "S03",
+      "name": "Claviform"
+    },
+    {
+      "id": "S04",
+      "name": "Cordiform"
+    },
+    {
+      "id": "S05",
+      "name": "Crosshatch"
+    },
+    {
+      "id": "S06",
+      "name": "Cruciform"
+    },
+    {
+      "id": "S07",
+      "name": "Cupule"
+    },
+    {
+      "id": "S08",
+      "name": "Dot"
+    },
+    {
+      "id": "S09",
+      "name": "Finger Fluting"
+    },
+    {
+      "id": "S10",
+      "name": "Flabelliform"
+    },
+    {
+      "id": "S11",
+      "name": "Half-Circle"
+    },
+    {
+      "id": "S12",
+      "name": "Line"
+    },
+    {
+      "id": "S13",
+      "name": "Negative Hand"
+    },
+    {
+      "id": "S14",
+      "name": "Open-Angle"
+    },
+    {
+      "id": "S15",
+      "name": "Oval"
+    },
+    {
+      "id": "S16",
+      "name": "Pectiform"
+    },
+    {
+      "id": "S17",
+      "name": "Penniform"
+    },
+    {
+      "id": "S18",
+      "name": "Positive Hand"
+    },
+    {
+      "id": "S19",
+      "name": "Quadrangle"
+    },
+    {
+      "id": "S20",
+      "name": "Reniform"
+    },
+    {
+      "id": "S21",
+      "name": "Scalariform"
+    },
+    {
+      "id": "S22",
+      "name": "Segmented Cruciform"
+    },
+    {
+      "id": "S23",
+      "name": "Serpentiform"
+    },
+    {
+      "id": "S24",
+      "name": "Spanish Tectiform"
+    },
+    {
+      "id": "S25",
+      "name": "Spiral"
+    },
+    {
+      "id": "S26",
+      "name": "Tectiform"
+    },
+    {
+      "id": "S27",
+      "name": "Triangle"
+    },
+    {
+      "id": "S28",
+      "name": "Unciform"
+    },
+    {
+      "id": "S29",
+      "name": "W-Sign"
+    },
+    {
+      "id": "S30",
+      "name": "Y-Sign"
+    },
+    {
+      "id": "S31",
+      "name": "Zigzag"
+    }
+  ],
+  "assignments": [
+    {
+      "byte": 0,
+      "hex": "00",
+      "pair": "S00+S00",
+      "signs": [
+        0,
+        0
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 1,
+      "hex": "01",
+      "pair": "S00+S01",
+      "signs": [
+        0,
+        1
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 2,
+      "hex": "02",
+      "pair": "S00+S02",
+      "signs": [
+        0,
+        2
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 3,
+      "hex": "03",
+      "pair": "S00+S03",
+      "signs": [
+        0,
+        3
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 4,
+      "hex": "04",
+      "pair": "S00+S04",
+      "signs": [
+        0,
+        4
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 5,
+      "hex": "05",
+      "pair": "S00+S05",
+      "signs": [
+        0,
+        5
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 6,
+      "hex": "06",
+      "pair": "S00+S06",
+      "signs": [
+        0,
+        6
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 7,
+      "hex": "07",
+      "pair": "S00+S07",
+      "signs": [
+        0,
+        7
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 8,
+      "hex": "08",
+      "pair": "S00+S08",
+      "signs": [
+        0,
+        8
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 9,
+      "hex": "09",
+      "pair": "S29+S00",
+      "signs": [
+        29,
+        0
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 10,
+      "hex": "0A",
+      "pair": "S23+S08",
+      "signs": [
+        23,
+        8
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 11,
+      "hex": "0B",
+      "pair": "S00+S09",
+      "signs": [
+        0,
+        9
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 12,
+      "hex": "0C",
+      "pair": "S00+S10",
+      "signs": [
+        0,
+        10
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 13,
+      "hex": "0D",
+      "pair": "S27+S03",
+      "signs": [
+        27,
+        3
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 14,
+      "hex": "0E",
+      "pair": "S00+S11",
+      "signs": [
+        0,
+        11
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 15,
+      "hex": "0F",
+      "pair": "S00+S12",
+      "signs": [
+        0,
+        12
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 16,
+      "hex": "10",
+      "pair": "S00+S13",
+      "signs": [
+        0,
+        13
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 17,
+      "hex": "11",
+      "pair": "S00+S14",
+      "signs": [
+        0,
+        14
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 18,
+      "hex": "12",
+      "pair": "S00+S15",
+      "signs": [
+        0,
+        15
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 19,
+      "hex": "13",
+      "pair": "S00+S16",
+      "signs": [
+        0,
+        16
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 20,
+      "hex": "14",
+      "pair": "S00+S17",
+      "signs": [
+        0,
+        17
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 21,
+      "hex": "15",
+      "pair": "S00+S18",
+      "signs": [
+        0,
+        18
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 22,
+      "hex": "16",
+      "pair": "S00+S19",
+      "signs": [
+        0,
+        19
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 23,
+      "hex": "17",
+      "pair": "S00+S20",
+      "signs": [
+        0,
+        20
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 24,
+      "hex": "18",
+      "pair": "S00+S21",
+      "signs": [
+        0,
+        21
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 25,
+      "hex": "19",
+      "pair": "S00+S22",
+      "signs": [
+        0,
+        22
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 26,
+      "hex": "1A",
+      "pair": "S00+S23",
+      "signs": [
+        0,
+        23
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 27,
+      "hex": "1B",
+      "pair": "S00+S24",
+      "signs": [
+        0,
+        24
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 28,
+      "hex": "1C",
+      "pair": "S00+S25",
+      "signs": [
+        0,
+        25
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 29,
+      "hex": "1D",
+      "pair": "S00+S26",
+      "signs": [
+        0,
+        26
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 30,
+      "hex": "1E",
+      "pair": "S00+S28",
+      "signs": [
+        0,
+        28
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 31,
+      "hex": "1F",
+      "pair": "S00+S29",
+      "signs": [
+        0,
+        29
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 32,
+      "hex": "20",
+      "pair": "S22+S09",
+      "signs": [
+        22,
+        9
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 33,
+      "hex": "21",
+      "pair": "S18+S16",
+      "signs": [
+        18,
+        16
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 34,
+      "hex": "22",
+      "pair": "S11+S19",
+      "signs": [
+        11,
+        19
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 35,
+      "hex": "23",
+      "pair": "S19+S26",
+      "signs": [
+        19,
+        26
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 36,
+      "hex": "24",
+      "pair": "S28+S27",
+      "signs": [
+        28,
+        27
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 37,
+      "hex": "25",
+      "pair": "S21+S17",
+      "signs": [
+        21,
+        17
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 38,
+      "hex": "26",
+      "pair": "S22+S21",
+      "signs": [
+        22,
+        21
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 39,
+      "hex": "27",
+      "pair": "S15+S30",
+      "signs": [
+        15,
+        30
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 40,
+      "hex": "28",
+      "pair": "S30+S29",
+      "signs": [
+        30,
+        29
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 41,
+      "hex": "29",
+      "pair": "S11+S14",
+      "signs": [
+        11,
+        14
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 42,
+      "hex": "2A",
+      "pair": "S15+S08",
+      "signs": [
+        15,
+        8
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 43,
+      "hex": "2B",
+      "pair": "S30+S27",
+      "signs": [
+        30,
+        27
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 44,
+      "hex": "2C",
+      "pair": "S01+S07",
+      "signs": [
+        1,
+        7
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 45,
+      "hex": "2D",
+      "pair": "S31+S01",
+      "signs": [
+        31,
+        1
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 46,
+      "hex": "2E",
+      "pair": "S26+S09",
+      "signs": [
+        26,
+        9
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 47,
+      "hex": "2F",
+      "pair": "S20+S25",
+      "signs": [
+        20,
+        25
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 48,
+      "hex": "30",
+      "pair": "S27+S23",
+      "signs": [
+        27,
+        23
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 49,
+      "hex": "31",
+      "pair": "S19+S07",
+      "signs": [
+        19,
+        7
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 50,
+      "hex": "32",
+      "pair": "S30+S11",
+      "signs": [
+        30,
+        11
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 51,
+      "hex": "33",
+      "pair": "S16+S30",
+      "signs": [
+        16,
+        30
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 52,
+      "hex": "34",
+      "pair": "S06+S03",
+      "signs": [
+        6,
+        3
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 53,
+      "hex": "35",
+      "pair": "S22+S31",
+      "signs": [
+        22,
+        31
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 54,
+      "hex": "36",
+      "pair": "S07+S00",
+      "signs": [
+        7,
+        0
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 55,
+      "hex": "37",
+      "pair": "S11+S22",
+      "signs": [
+        11,
+        22
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 56,
+      "hex": "38",
+      "pair": "S03+S02",
+      "signs": [
+        3,
+        2
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 57,
+      "hex": "39",
+      "pair": "S02+S20",
+      "signs": [
+        2,
+        20
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 58,
+      "hex": "3A",
+      "pair": "S18+S13",
+      "signs": [
+        18,
+        13
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 59,
+      "hex": "3B",
+      "pair": "S08+S25",
+      "signs": [
+        8,
+        25
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 60,
+      "hex": "3C",
+      "pair": "S19+S15",
+      "signs": [
+        19,
+        15
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 61,
+      "hex": "3D",
+      "pair": "S24+S13",
+      "signs": [
+        24,
+        13
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 62,
+      "hex": "3E",
+      "pair": "S02+S08",
+      "signs": [
+        2,
+        8
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 63,
+      "hex": "3F",
+      "pair": "S03+S25",
+      "signs": [
+        3,
+        25
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 64,
+      "hex": "40",
+      "pair": "S06+S14",
+      "signs": [
+        6,
+        14
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 65,
+      "hex": "41",
+      "pair": "S28+S19",
+      "signs": [
+        28,
+        19
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 66,
+      "hex": "42",
+      "pair": "S12+S19",
+      "signs": [
+        12,
+        19
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 67,
+      "hex": "43",
+      "pair": "S17+S07",
+      "signs": [
+        17,
+        7
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 68,
+      "hex": "44",
+      "pair": "S16+S13",
+      "signs": [
+        16,
+        13
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 69,
+      "hex": "45",
+      "pair": "S00+S27",
+      "signs": [
+        0,
+        27
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 70,
+      "hex": "46",
+      "pair": "S08+S23",
+      "signs": [
+        8,
+        23
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 71,
+      "hex": "47",
+      "pair": "S26+S08",
+      "signs": [
+        26,
+        8
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 72,
+      "hex": "48",
+      "pair": "S21+S15",
+      "signs": [
+        21,
+        15
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 73,
+      "hex": "49",
+      "pair": "S03+S11",
+      "signs": [
+        3,
+        11
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 74,
+      "hex": "4A",
+      "pair": "S23+S21",
+      "signs": [
+        23,
+        21
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 75,
+      "hex": "4B",
+      "pair": "S14+S24",
+      "signs": [
+        14,
+        24
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 76,
+      "hex": "4C",
+      "pair": "S20+S11",
+      "signs": [
+        20,
+        11
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 77,
+      "hex": "4D",
+      "pair": "S19+S02",
+      "signs": [
+        19,
+        2
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 78,
+      "hex": "4E",
+      "pair": "S15+S27",
+      "signs": [
+        15,
+        27
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 79,
+      "hex": "4F",
+      "pair": "S09+S06",
+      "signs": [
+        9,
+        6
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 80,
+      "hex": "50",
+      "pair": "S15+S03",
+      "signs": [
+        15,
+        3
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 81,
+      "hex": "51",
+      "pair": "S14+S21",
+      "signs": [
+        14,
+        21
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 82,
+      "hex": "52",
+      "pair": "S14+S20",
+      "signs": [
+        14,
+        20
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 83,
+      "hex": "53",
+      "pair": "S01+S14",
+      "signs": [
+        1,
+        14
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 84,
+      "hex": "54",
+      "pair": "S21+S21",
+      "signs": [
+        21,
+        21
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 85,
+      "hex": "55",
+      "pair": "S27+S09",
+      "signs": [
+        27,
+        9
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 86,
+      "hex": "56",
+      "pair": "S05+S29",
+      "signs": [
+        5,
+        29
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 87,
+      "hex": "57",
+      "pair": "S21+S28",
+      "signs": [
+        21,
+        28
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 88,
+      "hex": "58",
+      "pair": "S19+S11",
+      "signs": [
+        19,
+        11
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 89,
+      "hex": "59",
+      "pair": "S23+S11",
+      "signs": [
+        23,
+        11
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 90,
+      "hex": "5A",
+      "pair": "S22+S03",
+      "signs": [
+        22,
+        3
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 91,
+      "hex": "5B",
+      "pair": "S16+S12",
+      "signs": [
+        16,
+        12
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 92,
+      "hex": "5C",
+      "pair": "S29+S17",
+      "signs": [
+        29,
+        17
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 93,
+      "hex": "5D",
+      "pair": "S23+S12",
+      "signs": [
+        23,
+        12
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 94,
+      "hex": "5E",
+      "pair": "S28+S03",
+      "signs": [
+        28,
+        3
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 95,
+      "hex": "5F",
+      "pair": "S17+S00",
+      "signs": [
+        17,
+        0
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 96,
+      "hex": "60",
+      "pair": "S06+S16",
+      "signs": [
+        6,
+        16
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 97,
+      "hex": "61",
+      "pair": "S28+S26",
+      "signs": [
+        28,
+        26
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 98,
+      "hex": "62",
+      "pair": "S04+S14",
+      "signs": [
+        4,
+        14
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 99,
+      "hex": "63",
+      "pair": "S29+S19",
+      "signs": [
+        29,
+        19
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 100,
+      "hex": "64",
+      "pair": "S21+S20",
+      "signs": [
+        21,
+        20
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 101,
+      "hex": "65",
+      "pair": "S24+S10",
+      "signs": [
+        24,
+        10
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 102,
+      "hex": "66",
+      "pair": "S11+S07",
+      "signs": [
+        11,
+        7
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 103,
+      "hex": "67",
+      "pair": "S24+S17",
+      "signs": [
+        24,
+        17
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 104,
+      "hex": "68",
+      "pair": "S16+S01",
+      "signs": [
+        16,
+        1
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 105,
+      "hex": "69",
+      "pair": "S27+S25",
+      "signs": [
+        27,
+        25
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 106,
+      "hex": "6A",
+      "pair": "S25+S05",
+      "signs": [
+        25,
+        5
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 107,
+      "hex": "6B",
+      "pair": "S26+S13",
+      "signs": [
+        26,
+        13
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 108,
+      "hex": "6C",
+      "pair": "S27+S06",
+      "signs": [
+        27,
+        6
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 109,
+      "hex": "6D",
+      "pair": "S09+S04",
+      "signs": [
+        9,
+        4
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 110,
+      "hex": "6E",
+      "pair": "S24+S26",
+      "signs": [
+        24,
+        26
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 111,
+      "hex": "6F",
+      "pair": "S00+S31",
+      "signs": [
+        0,
+        31
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 112,
+      "hex": "70",
+      "pair": "S28+S30",
+      "signs": [
+        28,
+        30
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 113,
+      "hex": "71",
+      "pair": "S23+S30",
+      "signs": [
+        23,
+        30
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 114,
+      "hex": "72",
+      "pair": "S17+S28",
+      "signs": [
+        17,
+        28
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 115,
+      "hex": "73",
+      "pair": "S29+S29",
+      "signs": [
+        29,
+        29
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 116,
+      "hex": "74",
+      "pair": "S21+S23",
+      "signs": [
+        21,
+        23
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 117,
+      "hex": "75",
+      "pair": "S31+S08",
+      "signs": [
+        31,
+        8
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 118,
+      "hex": "76",
+      "pair": "S05+S13",
+      "signs": [
+        5,
+        13
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 119,
+      "hex": "77",
+      "pair": "S26+S16",
+      "signs": [
+        26,
+        16
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 120,
+      "hex": "78",
+      "pair": "S21+S00",
+      "signs": [
+        21,
+        0
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 121,
+      "hex": "79",
+      "pair": "S31+S17",
+      "signs": [
+        31,
+        17
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 122,
+      "hex": "7A",
+      "pair": "S08+S14",
+      "signs": [
+        8,
+        14
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 123,
+      "hex": "7B",
+      "pair": "S04+S08",
+      "signs": [
+        4,
+        8
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 124,
+      "hex": "7C",
+      "pair": "S20+S12",
+      "signs": [
+        20,
+        12
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 125,
+      "hex": "7D",
+      "pair": "S23+S02",
+      "signs": [
+        23,
+        2
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 126,
+      "hex": "7E",
+      "pair": "S27+S08",
+      "signs": [
+        27,
+        8
+      ],
+      "origin": "v1.0-preserved"
+    },
+    {
+      "byte": 127,
+      "hex": "7F",
+      "pair": "S00+S30",
+      "signs": [
+        0,
+        30
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 128,
+      "hex": "80",
+      "pair": "S01+S00",
+      "signs": [
+        1,
+        0
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 129,
+      "hex": "81",
+      "pair": "S01+S01",
+      "signs": [
+        1,
+        1
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 130,
+      "hex": "82",
+      "pair": "S01+S02",
+      "signs": [
+        1,
+        2
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 131,
+      "hex": "83",
+      "pair": "S01+S03",
+      "signs": [
+        1,
+        3
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 132,
+      "hex": "84",
+      "pair": "S01+S04",
+      "signs": [
+        1,
+        4
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 133,
+      "hex": "85",
+      "pair": "S01+S05",
+      "signs": [
+        1,
+        5
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 134,
+      "hex": "86",
+      "pair": "S01+S06",
+      "signs": [
+        1,
+        6
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 135,
+      "hex": "87",
+      "pair": "S01+S08",
+      "signs": [
+        1,
+        8
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 136,
+      "hex": "88",
+      "pair": "S01+S09",
+      "signs": [
+        1,
+        9
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 137,
+      "hex": "89",
+      "pair": "S01+S10",
+      "signs": [
+        1,
+        10
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 138,
+      "hex": "8A",
+      "pair": "S01+S11",
+      "signs": [
+        1,
+        11
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 139,
+      "hex": "8B",
+      "pair": "S01+S12",
+      "signs": [
+        1,
+        12
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 140,
+      "hex": "8C",
+      "pair": "S01+S13",
+      "signs": [
+        1,
+        13
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 141,
+      "hex": "8D",
+      "pair": "S01+S15",
+      "signs": [
+        1,
+        15
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 142,
+      "hex": "8E",
+      "pair": "S01+S16",
+      "signs": [
+        1,
+        16
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 143,
+      "hex": "8F",
+      "pair": "S01+S17",
+      "signs": [
+        1,
+        17
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 144,
+      "hex": "90",
+      "pair": "S01+S18",
+      "signs": [
+        1,
+        18
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 145,
+      "hex": "91",
+      "pair": "S01+S19",
+      "signs": [
+        1,
+        19
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 146,
+      "hex": "92",
+      "pair": "S01+S20",
+      "signs": [
+        1,
+        20
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 147,
+      "hex": "93",
+      "pair": "S01+S21",
+      "signs": [
+        1,
+        21
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 148,
+      "hex": "94",
+      "pair": "S01+S22",
+      "signs": [
+        1,
+        22
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 149,
+      "hex": "95",
+      "pair": "S01+S23",
+      "signs": [
+        1,
+        23
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 150,
+      "hex": "96",
+      "pair": "S01+S24",
+      "signs": [
+        1,
+        24
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 151,
+      "hex": "97",
+      "pair": "S01+S25",
+      "signs": [
+        1,
+        25
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 152,
+      "hex": "98",
+      "pair": "S01+S26",
+      "signs": [
+        1,
+        26
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 153,
+      "hex": "99",
+      "pair": "S01+S27",
+      "signs": [
+        1,
+        27
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 154,
+      "hex": "9A",
+      "pair": "S01+S28",
+      "signs": [
+        1,
+        28
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 155,
+      "hex": "9B",
+      "pair": "S01+S29",
+      "signs": [
+        1,
+        29
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 156,
+      "hex": "9C",
+      "pair": "S01+S30",
+      "signs": [
+        1,
+        30
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 157,
+      "hex": "9D",
+      "pair": "S01+S31",
+      "signs": [
+        1,
+        31
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 158,
+      "hex": "9E",
+      "pair": "S02+S00",
+      "signs": [
+        2,
+        0
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 159,
+      "hex": "9F",
+      "pair": "S02+S01",
+      "signs": [
+        2,
+        1
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 160,
+      "hex": "A0",
+      "pair": "S02+S02",
+      "signs": [
+        2,
+        2
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 161,
+      "hex": "A1",
+      "pair": "S02+S03",
+      "signs": [
+        2,
+        3
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 162,
+      "hex": "A2",
+      "pair": "S02+S04",
+      "signs": [
+        2,
+        4
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 163,
+      "hex": "A3",
+      "pair": "S02+S05",
+      "signs": [
+        2,
+        5
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 164,
+      "hex": "A4",
+      "pair": "S02+S06",
+      "signs": [
+        2,
+        6
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 165,
+      "hex": "A5",
+      "pair": "S02+S07",
+      "signs": [
+        2,
+        7
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 166,
+      "hex": "A6",
+      "pair": "S02+S09",
+      "signs": [
+        2,
+        9
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 167,
+      "hex": "A7",
+      "pair": "S02+S10",
+      "signs": [
+        2,
+        10
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 168,
+      "hex": "A8",
+      "pair": "S02+S11",
+      "signs": [
+        2,
+        11
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 169,
+      "hex": "A9",
+      "pair": "S02+S12",
+      "signs": [
+        2,
+        12
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 170,
+      "hex": "AA",
+      "pair": "S02+S13",
+      "signs": [
+        2,
+        13
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 171,
+      "hex": "AB",
+      "pair": "S02+S14",
+      "signs": [
+        2,
+        14
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 172,
+      "hex": "AC",
+      "pair": "S02+S15",
+      "signs": [
+        2,
+        15
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 173,
+      "hex": "AD",
+      "pair": "S02+S16",
+      "signs": [
+        2,
+        16
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 174,
+      "hex": "AE",
+      "pair": "S02+S17",
+      "signs": [
+        2,
+        17
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 175,
+      "hex": "AF",
+      "pair": "S02+S18",
+      "signs": [
+        2,
+        18
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 176,
+      "hex": "B0",
+      "pair": "S02+S19",
+      "signs": [
+        2,
+        19
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 177,
+      "hex": "B1",
+      "pair": "S02+S21",
+      "signs": [
+        2,
+        21
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 178,
+      "hex": "B2",
+      "pair": "S02+S22",
+      "signs": [
+        2,
+        22
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 179,
+      "hex": "B3",
+      "pair": "S02+S23",
+      "signs": [
+        2,
+        23
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 180,
+      "hex": "B4",
+      "pair": "S02+S24",
+      "signs": [
+        2,
+        24
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 181,
+      "hex": "B5",
+      "pair": "S02+S25",
+      "signs": [
+        2,
+        25
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 182,
+      "hex": "B6",
+      "pair": "S02+S26",
+      "signs": [
+        2,
+        26
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 183,
+      "hex": "B7",
+      "pair": "S02+S27",
+      "signs": [
+        2,
+        27
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 184,
+      "hex": "B8",
+      "pair": "S02+S28",
+      "signs": [
+        2,
+        28
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 185,
+      "hex": "B9",
+      "pair": "S02+S29",
+      "signs": [
+        2,
+        29
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 186,
+      "hex": "BA",
+      "pair": "S02+S30",
+      "signs": [
+        2,
+        30
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 187,
+      "hex": "BB",
+      "pair": "S02+S31",
+      "signs": [
+        2,
+        31
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 188,
+      "hex": "BC",
+      "pair": "S03+S00",
+      "signs": [
+        3,
+        0
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 189,
+      "hex": "BD",
+      "pair": "S03+S01",
+      "signs": [
+        3,
+        1
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 190,
+      "hex": "BE",
+      "pair": "S03+S03",
+      "signs": [
+        3,
+        3
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 191,
+      "hex": "BF",
+      "pair": "S03+S04",
+      "signs": [
+        3,
+        4
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 192,
+      "hex": "C0",
+      "pair": "S03+S05",
+      "signs": [
+        3,
+        5
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 193,
+      "hex": "C1",
+      "pair": "S03+S06",
+      "signs": [
+        3,
+        6
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 194,
+      "hex": "C2",
+      "pair": "S03+S07",
+      "signs": [
+        3,
+        7
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 195,
+      "hex": "C3",
+      "pair": "S03+S08",
+      "signs": [
+        3,
+        8
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 196,
+      "hex": "C4",
+      "pair": "S03+S09",
+      "signs": [
+        3,
+        9
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 197,
+      "hex": "C5",
+      "pair": "S03+S10",
+      "signs": [
+        3,
+        10
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 198,
+      "hex": "C6",
+      "pair": "S03+S12",
+      "signs": [
+        3,
+        12
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 199,
+      "hex": "C7",
+      "pair": "S03+S13",
+      "signs": [
+        3,
+        13
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 200,
+      "hex": "C8",
+      "pair": "S03+S14",
+      "signs": [
+        3,
+        14
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 201,
+      "hex": "C9",
+      "pair": "S03+S15",
+      "signs": [
+        3,
+        15
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 202,
+      "hex": "CA",
+      "pair": "S03+S16",
+      "signs": [
+        3,
+        16
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 203,
+      "hex": "CB",
+      "pair": "S03+S17",
+      "signs": [
+        3,
+        17
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 204,
+      "hex": "CC",
+      "pair": "S03+S18",
+      "signs": [
+        3,
+        18
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 205,
+      "hex": "CD",
+      "pair": "S03+S19",
+      "signs": [
+        3,
+        19
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 206,
+      "hex": "CE",
+      "pair": "S03+S20",
+      "signs": [
+        3,
+        20
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 207,
+      "hex": "CF",
+      "pair": "S03+S21",
+      "signs": [
+        3,
+        21
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 208,
+      "hex": "D0",
+      "pair": "S03+S22",
+      "signs": [
+        3,
+        22
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 209,
+      "hex": "D1",
+      "pair": "S03+S23",
+      "signs": [
+        3,
+        23
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 210,
+      "hex": "D2",
+      "pair": "S03+S24",
+      "signs": [
+        3,
+        24
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 211,
+      "hex": "D3",
+      "pair": "S03+S26",
+      "signs": [
+        3,
+        26
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 212,
+      "hex": "D4",
+      "pair": "S03+S27",
+      "signs": [
+        3,
+        27
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 213,
+      "hex": "D5",
+      "pair": "S03+S28",
+      "signs": [
+        3,
+        28
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 214,
+      "hex": "D6",
+      "pair": "S03+S29",
+      "signs": [
+        3,
+        29
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 215,
+      "hex": "D7",
+      "pair": "S03+S30",
+      "signs": [
+        3,
+        30
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 216,
+      "hex": "D8",
+      "pair": "S03+S31",
+      "signs": [
+        3,
+        31
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 217,
+      "hex": "D9",
+      "pair": "S04+S00",
+      "signs": [
+        4,
+        0
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 218,
+      "hex": "DA",
+      "pair": "S04+S01",
+      "signs": [
+        4,
+        1
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 219,
+      "hex": "DB",
+      "pair": "S04+S02",
+      "signs": [
+        4,
+        2
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 220,
+      "hex": "DC",
+      "pair": "S04+S03",
+      "signs": [
+        4,
+        3
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 221,
+      "hex": "DD",
+      "pair": "S04+S04",
+      "signs": [
+        4,
+        4
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 222,
+      "hex": "DE",
+      "pair": "S04+S05",
+      "signs": [
+        4,
+        5
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 223,
+      "hex": "DF",
+      "pair": "S04+S06",
+      "signs": [
+        4,
+        6
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 224,
+      "hex": "E0",
+      "pair": "S04+S07",
+      "signs": [
+        4,
+        7
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 225,
+      "hex": "E1",
+      "pair": "S04+S09",
+      "signs": [
+        4,
+        9
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 226,
+      "hex": "E2",
+      "pair": "S04+S10",
+      "signs": [
+        4,
+        10
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 227,
+      "hex": "E3",
+      "pair": "S04+S11",
+      "signs": [
+        4,
+        11
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 228,
+      "hex": "E4",
+      "pair": "S04+S12",
+      "signs": [
+        4,
+        12
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 229,
+      "hex": "E5",
+      "pair": "S04+S13",
+      "signs": [
+        4,
+        13
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 230,
+      "hex": "E6",
+      "pair": "S04+S15",
+      "signs": [
+        4,
+        15
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 231,
+      "hex": "E7",
+      "pair": "S04+S16",
+      "signs": [
+        4,
+        16
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 232,
+      "hex": "E8",
+      "pair": "S04+S17",
+      "signs": [
+        4,
+        17
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 233,
+      "hex": "E9",
+      "pair": "S04+S18",
+      "signs": [
+        4,
+        18
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 234,
+      "hex": "EA",
+      "pair": "S04+S19",
+      "signs": [
+        4,
+        19
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 235,
+      "hex": "EB",
+      "pair": "S04+S20",
+      "signs": [
+        4,
+        20
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 236,
+      "hex": "EC",
+      "pair": "S04+S21",
+      "signs": [
+        4,
+        21
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 237,
+      "hex": "ED",
+      "pair": "S04+S22",
+      "signs": [
+        4,
+        22
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 238,
+      "hex": "EE",
+      "pair": "S04+S23",
+      "signs": [
+        4,
+        23
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 239,
+      "hex": "EF",
+      "pair": "S04+S24",
+      "signs": [
+        4,
+        24
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 240,
+      "hex": "F0",
+      "pair": "S04+S25",
+      "signs": [
+        4,
+        25
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 241,
+      "hex": "F1",
+      "pair": "S04+S26",
+      "signs": [
+        4,
+        26
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 242,
+      "hex": "F2",
+      "pair": "S04+S27",
+      "signs": [
+        4,
+        27
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 243,
+      "hex": "F3",
+      "pair": "S04+S28",
+      "signs": [
+        4,
+        28
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 244,
+      "hex": "F4",
+      "pair": "S04+S29",
+      "signs": [
+        4,
+        29
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 245,
+      "hex": "F5",
+      "pair": "S04+S30",
+      "signs": [
+        4,
+        30
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 246,
+      "hex": "F6",
+      "pair": "S04+S31",
+      "signs": [
+        4,
+        31
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 247,
+      "hex": "F7",
+      "pair": "S05+S00",
+      "signs": [
+        5,
+        0
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 248,
+      "hex": "F8",
+      "pair": "S05+S01",
+      "signs": [
+        5,
+        1
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 249,
+      "hex": "F9",
+      "pair": "S05+S02",
+      "signs": [
+        5,
+        2
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 250,
+      "hex": "FA",
+      "pair": "S05+S03",
+      "signs": [
+        5,
+        3
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 251,
+      "hex": "FB",
+      "pair": "S05+S04",
+      "signs": [
+        5,
+        4
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 252,
+      "hex": "FC",
+      "pair": "S05+S05",
+      "signs": [
+        5,
+        5
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 253,
+      "hex": "FD",
+      "pair": "S05+S06",
+      "signs": [
+        5,
+        6
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 254,
+      "hex": "FE",
+      "pair": "S05+S07",
+      "signs": [
+        5,
+        7
+      ],
+      "origin": "private-draft-addition"
+    },
+    {
+      "byte": 255,
+      "hex": "FF",
+      "pair": "S05+S08",
+      "signs": [
+        5,
+        8
+      ],
+      "origin": "private-draft-addition"
+    }
+  ],
+  "unassigned_pairs": [
+    "S05+S09",
+    "S05+S10",
+    "S05+S11",
+    "S05+S12",
+    "S05+S14",
+    "S05+S15",
+    "S05+S16",
+    "S05+S17",
+    "S05+S18",
+    "S05+S19",
+    "S05+S20",
+    "S05+S21",
+    "S05+S22",
+    "S05+S23",
+    "S05+S24",
+    "S05+S25",
+    "S05+S26",
+    "S05+S27",
+    "S05+S28",
+    "S05+S30",
+    "S05+S31",
+    "S06+S00",
+    "S06+S01",
+    "S06+S02",
+    "S06+S04",
+    "S06+S05",
+    "S06+S06",
+    "S06+S07",
+    "S06+S08",
+    "S06+S09",
+    "S06+S10",
+    "S06+S11",
+    "S06+S12",
+    "S06+S13",
+    "S06+S15",
+    "S06+S17",
+    "S06+S18",
+    "S06+S19",
+    "S06+S20",
+    "S06+S21",
+    "S06+S22",
+    "S06+S23",
+    "S06+S24",
+    "S06+S25",
+    "S06+S26",
+    "S06+S27",
+    "S06+S28",
+    "S06+S29",
+    "S06+S30",
+    "S06+S31",
+    "S07+S01",
+    "S07+S02",
+    "S07+S03",
+    "S07+S04",
+    "S07+S05",
+    "S07+S06",
+    "S07+S07",
+    "S07+S08",
+    "S07+S09",
+    "S07+S10",
+    "S07+S11",
+    "S07+S12",
+    "S07+S13",
+    "S07+S14",
+    "S07+S15",
+    "S07+S16",
+    "S07+S17",
+    "S07+S18",
+    "S07+S19",
+    "S07+S20",
+    "S07+S21",
+    "S07+S22",
+    "S07+S23",
+    "S07+S24",
+    "S07+S25",
+    "S07+S26",
+    "S07+S27",
+    "S07+S28",
+    "S07+S29",
+    "S07+S30",
+    "S07+S31",
+    "S08+S00",
+    "S08+S01",
+    "S08+S02",
+    "S08+S03",
+    "S08+S04",
+    "S08+S05",
+    "S08+S06",
+    "S08+S07",
+    "S08+S08",
+    "S08+S09",
+    "S08+S10",
+    "S08+S11",
+    "S08+S12",
+    "S08+S13",
+    "S08+S15",
+    "S08+S16",
+    "S08+S17",
+    "S08+S18",
+    "S08+S19",
+    "S08+S20",
+    "S08+S21",
+    "S08+S22",
+    "S08+S24",
+    "S08+S26",
+    "S08+S27",
+    "S08+S28",
+    "S08+S29",
+    "S08+S30",
+    "S08+S31",
+    "S09+S00",
+    "S09+S01",
+    "S09+S02",
+    "S09+S03",
+    "S09+S05",
+    "S09+S07",
+    "S09+S08",
+    "S09+S09",
+    "S09+S10",
+    "S09+S11",
+    "S09+S12",
+    "S09+S13",
+    "S09+S14",
+    "S09+S15",
+    "S09+S16",
+    "S09+S17",
+    "S09+S18",
+    "S09+S19",
+    "S09+S20",
+    "S09+S21",
+    "S09+S22",
+    "S09+S23",
+    "S09+S24",
+    "S09+S25",
+    "S09+S26",
+    "S09+S27",
+    "S09+S28",
+    "S09+S29",
+    "S09+S30",
+    "S09+S31",
+    "S10+S00",
+    "S10+S01",
+    "S10+S02",
+    "S10+S03",
+    "S10+S04",
+    "S10+S05",
+    "S10+S06",
+    "S10+S07",
+    "S10+S08",
+    "S10+S09",
+    "S10+S10",
+    "S10+S11",
+    "S10+S12",
+    "S10+S13",
+    "S10+S14",
+    "S10+S15",
+    "S10+S16",
+    "S10+S17",
+    "S10+S18",
+    "S10+S19",
+    "S10+S20",
+    "S10+S21",
+    "S10+S22",
+    "S10+S23",
+    "S10+S24",
+    "S10+S25",
+    "S10+S26",
+    "S10+S27",
+    "S10+S28",
+    "S10+S29",
+    "S10+S30",
+    "S10+S31",
+    "S11+S00",
+    "S11+S01",
+    "S11+S02",
+    "S11+S03",
+    "S11+S04",
+    "S11+S05",
+    "S11+S06",
+    "S11+S08",
+    "S11+S09",
+    "S11+S10",
+    "S11+S11",
+    "S11+S12",
+    "S11+S13",
+    "S11+S15",
+    "S11+S16",
+    "S11+S17",
+    "S11+S18",
+    "S11+S20",
+    "S11+S21",
+    "S11+S23",
+    "S11+S24",
+    "S11+S25",
+    "S11+S26",
+    "S11+S27",
+    "S11+S28",
+    "S11+S29",
+    "S11+S30",
+    "S11+S31",
+    "S12+S00",
+    "S12+S01",
+    "S12+S02",
+    "S12+S03",
+    "S12+S04",
+    "S12+S05",
+    "S12+S06",
+    "S12+S07",
+    "S12+S08",
+    "S12+S09",
+    "S12+S10",
+    "S12+S11",
+    "S12+S12",
+    "S12+S13",
+    "S12+S14",
+    "S12+S15",
+    "S12+S16",
+    "S12+S17",
+    "S12+S18",
+    "S12+S20",
+    "S12+S21",
+    "S12+S22",
+    "S12+S23",
+    "S12+S24",
+    "S12+S25",
+    "S12+S26",
+    "S12+S27",
+    "S12+S28",
+    "S12+S29",
+    "S12+S30",
+    "S12+S31",
+    "S13+S00",
+    "S13+S01",
+    "S13+S02",
+    "S13+S03",
+    "S13+S04",
+    "S13+S05",
+    "S13+S06",
+    "S13+S07",
+    "S13+S08",
+    "S13+S09",
+    "S13+S10",
+    "S13+S11",
+    "S13+S12",
+    "S13+S13",
+    "S13+S14",
+    "S13+S15",
+    "S13+S16",
+    "S13+S17",
+    "S13+S18",
+    "S13+S19",
+    "S13+S20",
+    "S13+S21",
+    "S13+S22",
+    "S13+S23",
+    "S13+S24",
+    "S13+S25",
+    "S13+S26",
+    "S13+S27",
+    "S13+S28",
+    "S13+S29",
+    "S13+S30",
+    "S13+S31",
+    "S14+S00",
+    "S14+S01",
+    "S14+S02",
+    "S14+S03",
+    "S14+S04",
+    "S14+S05",
+    "S14+S06",
+    "S14+S07",
+    "S14+S08",
+    "S14+S09",
+    "S14+S10",
+    "S14+S11",
+    "S14+S12",
+    "S14+S13",
+    "S14+S14",
+    "S14+S15",
+    "S14+S16",
+    "S14+S17",
+    "S14+S18",
+    "S14+S19",
+    "S14+S22",
+    "S14+S23",
+    "S14+S25",
+    "S14+S26",
+    "S14+S27",
+    "S14+S28",
+    "S14+S29",
+    "S14+S30",
+    "S14+S31",
+    "S15+S00",
+    "S15+S01",
+    "S15+S02",
+    "S15+S04",
+    "S15+S05",
+    "S15+S06",
+    "S15+S07",
+    "S15+S09",
+    "S15+S10",
+    "S15+S11",
+    "S15+S12",
+    "S15+S13",
+    "S15+S14",
+    "S15+S15",
+    "S15+S16",
+    "S15+S17",
+    "S15+S18",
+    "S15+S19",
+    "S15+S20",
+    "S15+S21",
+    "S15+S22",
+    "S15+S23",
+    "S15+S24",
+    "S15+S25",
+    "S15+S26",
+    "S15+S28",
+    "S15+S29",
+    "S15+S31",
+    "S16+S00",
+    "S16+S02",
+    "S16+S03",
+    "S16+S04",
+    "S16+S05",
+    "S16+S06",
+    "S16+S07",
+    "S16+S08",
+    "S16+S09",
+    "S16+S10",
+    "S16+S11",
+    "S16+S14",
+    "S16+S15",
+    "S16+S16",
+    "S16+S17",
+    "S16+S18",
+    "S16+S19",
+    "S16+S20",
+    "S16+S21",
+    "S16+S22",
+    "S16+S23",
+    "S16+S24",
+    "S16+S25",
+    "S16+S26",
+    "S16+S27",
+    "S16+S28",
+    "S16+S29",
+    "S16+S31",
+    "S17+S01",
+    "S17+S02",
+    "S17+S03",
+    "S17+S04",
+    "S17+S05",
+    "S17+S06",
+    "S17+S08",
+    "S17+S09",
+    "S17+S10",
+    "S17+S11",
+    "S17+S12",
+    "S17+S13",
+    "S17+S14",
+    "S17+S15",
+    "S17+S16",
+    "S17+S17",
+    "S17+S18",
+    "S17+S19",
+    "S17+S20",
+    "S17+S21",
+    "S17+S22",
+    "S17+S23",
+    "S17+S24",
+    "S17+S25",
+    "S17+S26",
+    "S17+S27",
+    "S17+S29",
+    "S17+S30",
+    "S17+S31",
+    "S18+S00",
+    "S18+S01",
+    "S18+S02",
+    "S18+S03",
+    "S18+S04",
+    "S18+S05",
+    "S18+S06",
+    "S18+S07",
+    "S18+S08",
+    "S18+S09",
+    "S18+S10",
+    "S18+S11",
+    "S18+S12",
+    "S18+S14",
+    "S18+S15",
+    "S18+S17",
+    "S18+S18",
+    "S18+S19",
+    "S18+S20",
+    "S18+S21",
+    "S18+S22",
+    "S18+S23",
+    "S18+S24",
+    "S18+S25",
+    "S18+S26",
+    "S18+S27",
+    "S18+S28",
+    "S18+S29",
+    "S18+S30",
+    "S18+S31",
+    "S19+S00",
+    "S19+S01",
+    "S19+S03",
+    "S19+S04",
+    "S19+S05",
+    "S19+S06",
+    "S19+S08",
+    "S19+S09",
+    "S19+S10",
+    "S19+S12",
+    "S19+S13",
+    "S19+S14",
+    "S19+S16",
+    "S19+S17",
+    "S19+S18",
+    "S19+S19",
+    "S19+S20",
+    "S19+S21",
+    "S19+S22",
+    "S19+S23",
+    "S19+S24",
+    "S19+S25",
+    "S19+S27",
+    "S19+S28",
+    "S19+S29",
+    "S19+S30",
+    "S19+S31",
+    "S20+S00",
+    "S20+S01",
+    "S20+S02",
+    "S20+S03",
+    "S20+S04",
+    "S20+S05",
+    "S20+S06",
+    "S20+S07",
+    "S20+S08",
+    "S20+S09",
+    "S20+S10",
+    "S20+S13",
+    "S20+S14",
+    "S20+S15",
+    "S20+S16",
+    "S20+S17",
+    "S20+S18",
+    "S20+S19",
+    "S20+S20",
+    "S20+S21",
+    "S20+S22",
+    "S20+S23",
+    "S20+S24",
+    "S20+S26",
+    "S20+S27",
+    "S20+S28",
+    "S20+S29",
+    "S20+S30",
+    "S20+S31",
+    "S21+S01",
+    "S21+S02",
+    "S21+S03",
+    "S21+S04",
+    "S21+S05",
+    "S21+S06",
+    "S21+S07",
+    "S21+S08",
+    "S21+S09",
+    "S21+S10",
+    "S21+S11",
+    "S21+S12",
+    "S21+S13",
+    "S21+S14",
+    "S21+S16",
+    "S21+S18",
+    "S21+S19",
+    "S21+S22",
+    "S21+S24",
+    "S21+S25",
+    "S21+S26",
+    "S21+S27",
+    "S21+S29",
+    "S21+S30",
+    "S21+S31",
+    "S22+S00",
+    "S22+S01",
+    "S22+S02",
+    "S22+S04",
+    "S22+S05",
+    "S22+S06",
+    "S22+S07",
+    "S22+S08",
+    "S22+S10",
+    "S22+S11",
+    "S22+S12",
+    "S22+S13",
+    "S22+S14",
+    "S22+S15",
+    "S22+S16",
+    "S22+S17",
+    "S22+S18",
+    "S22+S19",
+    "S22+S20",
+    "S22+S22",
+    "S22+S23",
+    "S22+S24",
+    "S22+S25",
+    "S22+S26",
+    "S22+S27",
+    "S22+S28",
+    "S22+S29",
+    "S22+S30",
+    "S23+S00",
+    "S23+S01",
+    "S23+S03",
+    "S23+S04",
+    "S23+S05",
+    "S23+S06",
+    "S23+S07",
+    "S23+S09",
+    "S23+S10",
+    "S23+S13",
+    "S23+S14",
+    "S23+S15",
+    "S23+S16",
+    "S23+S17",
+    "S23+S18",
+    "S23+S19",
+    "S23+S20",
+    "S23+S22",
+    "S23+S23",
+    "S23+S24",
+    "S23+S25",
+    "S23+S26",
+    "S23+S27",
+    "S23+S28",
+    "S23+S29",
+    "S23+S31",
+    "S24+S00",
+    "S24+S01",
+    "S24+S02",
+    "S24+S03",
+    "S24+S04",
+    "S24+S05",
+    "S24+S06",
+    "S24+S07",
+    "S24+S08",
+    "S24+S09",
+    "S24+S11",
+    "S24+S12",
+    "S24+S14",
+    "S24+S15",
+    "S24+S16",
+    "S24+S18",
+    "S24+S19",
+    "S24+S20",
+    "S24+S21",
+    "S24+S22",
+    "S24+S23",
+    "S24+S24",
+    "S24+S25",
+    "S24+S27",
+    "S24+S28",
+    "S24+S29",
+    "S24+S30",
+    "S24+S31",
+    "S25+S00",
+    "S25+S01",
+    "S25+S02",
+    "S25+S03",
+    "S25+S04",
+    "S25+S06",
+    "S25+S07",
+    "S25+S08",
+    "S25+S09",
+    "S25+S10",
+    "S25+S11",
+    "S25+S12",
+    "S25+S13",
+    "S25+S14",
+    "S25+S15",
+    "S25+S16",
+    "S25+S17",
+    "S25+S18",
+    "S25+S19",
+    "S25+S20",
+    "S25+S21",
+    "S25+S22",
+    "S25+S23",
+    "S25+S24",
+    "S25+S25",
+    "S25+S26",
+    "S25+S27",
+    "S25+S28",
+    "S25+S29",
+    "S25+S30",
+    "S25+S31",
+    "S26+S00",
+    "S26+S01",
+    "S26+S02",
+    "S26+S03",
+    "S26+S04",
+    "S26+S05",
+    "S26+S06",
+    "S26+S07",
+    "S26+S10",
+    "S26+S11",
+    "S26+S12",
+    "S26+S14",
+    "S26+S15",
+    "S26+S17",
+    "S26+S18",
+    "S26+S19",
+    "S26+S20",
+    "S26+S21",
+    "S26+S22",
+    "S26+S23",
+    "S26+S24",
+    "S26+S25",
+    "S26+S26",
+    "S26+S27",
+    "S26+S28",
+    "S26+S29",
+    "S26+S30",
+    "S26+S31",
+    "S27+S00",
+    "S27+S01",
+    "S27+S02",
+    "S27+S04",
+    "S27+S05",
+    "S27+S07",
+    "S27+S10",
+    "S27+S11",
+    "S27+S12",
+    "S27+S13",
+    "S27+S14",
+    "S27+S15",
+    "S27+S16",
+    "S27+S17",
+    "S27+S18",
+    "S27+S19",
+    "S27+S20",
+    "S27+S21",
+    "S27+S22",
+    "S27+S24",
+    "S27+S26",
+    "S27+S27",
+    "S27+S28",
+    "S27+S29",
+    "S27+S30",
+    "S27+S31",
+    "S28+S00",
+    "S28+S01",
+    "S28+S02",
+    "S28+S04",
+    "S28+S05",
+    "S28+S06",
+    "S28+S07",
+    "S28+S08",
+    "S28+S09",
+    "S28+S10",
+    "S28+S11",
+    "S28+S12",
+    "S28+S13",
+    "S28+S14",
+    "S28+S15",
+    "S28+S16",
+    "S28+S17",
+    "S28+S18",
+    "S28+S20",
+    "S28+S21",
+    "S28+S22",
+    "S28+S23",
+    "S28+S24",
+    "S28+S25",
+    "S28+S28",
+    "S28+S29",
+    "S28+S31",
+    "S29+S01",
+    "S29+S02",
+    "S29+S03",
+    "S29+S04",
+    "S29+S05",
+    "S29+S06",
+    "S29+S07",
+    "S29+S08",
+    "S29+S09",
+    "S29+S10",
+    "S29+S11",
+    "S29+S12",
+    "S29+S13",
+    "S29+S14",
+    "S29+S15",
+    "S29+S16",
+    "S29+S18",
+    "S29+S20",
+    "S29+S21",
+    "S29+S22",
+    "S29+S23",
+    "S29+S24",
+    "S29+S25",
+    "S29+S26",
+    "S29+S27",
+    "S29+S28",
+    "S29+S30",
+    "S29+S31",
+    "S30+S00",
+    "S30+S01",
+    "S30+S02",
+    "S30+S03",
+    "S30+S04",
+    "S30+S05",
+    "S30+S06",
+    "S30+S07",
+    "S30+S08",
+    "S30+S09",
+    "S30+S10",
+    "S30+S12",
+    "S30+S13",
+    "S30+S14",
+    "S30+S15",
+    "S30+S16",
+    "S30+S17",
+    "S30+S18",
+    "S30+S19",
+    "S30+S20",
+    "S30+S21",
+    "S30+S22",
+    "S30+S23",
+    "S30+S24",
+    "S30+S25",
+    "S30+S26",
+    "S30+S28",
+    "S30+S30",
+    "S30+S31",
+    "S31+S00",
+    "S31+S02",
+    "S31+S03",
+    "S31+S04",
+    "S31+S05",
+    "S31+S06",
+    "S31+S07",
+    "S31+S09",
+    "S31+S10",
+    "S31+S11",
+    "S31+S12",
+    "S31+S13",
+    "S31+S14",
+    "S31+S15",
+    "S31+S16",
+    "S31+S18",
+    "S31+S19",
+    "S31+S20",
+    "S31+S21",
+    "S31+S22",
+    "S31+S23",
+    "S31+S24",
+    "S31+S25",
+    "S31+S26",
+    "S31+S27",
+    "S31+S28",
+    "S31+S29",
+    "S31+S30",
+    "S31+S31"
+  ],
+  "data_license": "MIT",
+  "mapping_compatibility": "All 256 byte assignments and all 768 unassigned pairs are identical to 2.0-draft.1; all 98 v1 assignments remain unchanged.",
+  "previous_profile": {
+    "version": "2.0-draft.1",
+    "key_sha256": "a4454dbad16b487d84c94207036355823488132782df52e589dc01ce5456d65b"
+  },
+  "mapping_sha256": "bee75673236bfe9cd397357936019170d7a75c0a342fa377c437afeca0a2256d"
+}
