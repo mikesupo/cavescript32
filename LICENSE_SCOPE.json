@@ -1,0 +1,258 @@
+{
+  "owner": "Michael S. Moniz / SupoSystem.ai",
+  "version": "2.0-rc.1",
+  "application": "Scoped grants; no permission for the assistant to publish a release or change a public mapping",
+  "software_data": "MIT",
+  "documentation": "CC-BY-4.0",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": ".github/action-pins.json",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": ".gitignore",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "license_or_status": "CC-BY-4.0",
+      "scope": "Current documentation, subject to preserved-source and third-party exceptions"
+    },
+    {
+      "path": "CI_AND_RELEASE.md",
+      "license_or_status": "CC-BY-4.0",
+      "scope": "Current documentation, subject to preserved-source and third-party exceptions"
+    },
+    {
+      "path": "LICENSE",
+      "license_or_status": "CC-BY-4.0",
+      "scope": "Current documentation, subject to preserved-source and third-party exceptions"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "license_or_status": "canonical-license-text",
+      "scope": "Official terms reproduced, not relicensed as project documentation"
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "license_or_status": "canonical-license-text",
+      "scope": "Official terms reproduced, not relicensed as project documentation"
+    },
+    {
+      "path": "LICENSES/SOURCES.json",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "LICENSE_SCOPE.json",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "NOTICE.md",
+      "license_or_status": "CC-BY-4.0",
+      "scope": "Current documentation, subject to preserved-source and third-party exceptions"
+    },
+    {
+      "path": "README.md",
+      "license_or_status": "CC-BY-4.0",
+      "scope": "Current documentation, subject to preserved-source and third-party exceptions"
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "SPECIFICATION.md",
+      "license_or_status": "CC-BY-4.0",
+      "scope": "Current documentation, subject to preserved-source and third-party exceptions"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "license_or_status": "CC-BY-4.0",
+      "scope": "Current documentation, subject to preserved-source and third-party exceptions"
+    },
+    {
+      "path": "WINDOWS_TEST.md",
+      "license_or_status": "CC-BY-4.0",
+      "scope": "Current documentation, subject to preserved-source and third-party exceptions"
+    },
+    {
+      "path": "baseline/BASELINE_LOCK.json",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "baseline/README.md",
+      "license_or_status": "CC-BY-4.0",
+      "scope": "Current documentation, subject to preserved-source and third-party exceptions"
+    },
+    {
+      "path": "baseline/v1.0/SOURCES_AND_CREDITS.txt",
+      "license_or_status": "preserved-existing-terms",
+      "scope": "Original v1 source fixture, unchanged bytes/notices; no blanket new grant"
+    },
+    {
+      "path": "baseline/v1.0/examples/ANSWERS.txt",
+      "license_or_status": "preserved-existing-terms",
+      "scope": "Original v1 source fixture, unchanged bytes/notices; no blanket new grant"
+    },
+    {
+      "path": "baseline/v1.0/examples/ASK.txt",
+      "license_or_status": "preserved-existing-terms",
+      "scope": "Original v1 source fixture, unchanged bytes/notices; no blanket new grant"
+    },
+    {
+      "path": "baseline/v1.0/examples/OPEN.txt",
+      "license_or_status": "preserved-existing-terms",
+      "scope": "Original v1 source fixture, unchanged bytes/notices; no blanket new grant"
+    },
+    {
+      "path": "baseline/v1.0/examples/READ.txt",
+      "license_or_status": "preserved-existing-terms",
+      "scope": "Original v1 source fixture, unchanged bytes/notices; no blanket new grant"
+    },
+    {
+      "path": "baseline/v1.0/examples/SAMPLE.txt",
+      "license_or_status": "preserved-existing-terms",
+      "scope": "Original v1 source fixture, unchanged bytes/notices; no blanket new grant"
+    },
+    {
+      "path": "baseline/v1.0/first-program/cavescript_run.py",
+      "license_or_status": "preserved-existing-terms",
+      "scope": "Original v1 source fixture, unchanged bytes/notices; no blanket new grant"
+    },
+    {
+      "path": "baseline/v1.0/first-program/marks.py",
+      "license_or_status": "preserved-existing-terms",
+      "scope": "Original v1 source fixture, unchanged bytes/notices; no blanket new grant"
+    },
+    {
+      "path": "baseline/v1.0/first-program/marks_cavescript32.txt",
+      "license_or_status": "preserved-existing-terms",
+      "scope": "Original v1 source fixture, unchanged bytes/notices; no blanket new grant"
+    },
+    {
+      "path": "baseline/v1.0/reference/cavescript32-v1.0-key.json",
+      "license_or_status": "preserved-existing-terms",
+      "scope": "Original v1 source fixture, unchanged bytes/notices; no blanket new grant"
+    },
+    {
+      "path": "cavescript32.py",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "examples/EXPECTED.md",
+      "license_or_status": "CC-BY-4.0",
+      "scope": "Current documentation, subject to preserved-source and third-party exceptions"
+    },
+    {
+      "path": "examples/READ.cave",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "examples/READ.txt",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "examples/cafe.cave",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "examples/cafe.txt",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "examples/draft1-cafe.cave",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "examples/emoji.cave",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "examples/emoji.txt",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "examples/empty.cave",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "examples/empty.txt",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "examples/legacy_READ.cave",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "examples/multilingual.cave",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "examples/multilingual.txt",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "reference/cavescript32-v2.0-draft.1-utf8-key.json",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "reference/cavescript32-v2.0-rc.1-utf8-key.json",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "reference/test-vectors.json",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "tests/test_codec.py",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "tests/test_profile_versions.py",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    },
+    {
+      "path": "tools/check_allocation.py",
+      "license_or_status": "MIT",
+      "scope": "Current software/configuration/mapping/fixture/metadata, to extent of owner-held rights"
+    }
+  ],
+  "embedded_document_code": "Code snippets authored for current Markdown are additionally available under MIT; surrounding prose CC BY 4.0",
+  "archives": "Only ten selected original v1 files included; original terms/notices preserved; full previous archive held separately",
+  "drawing_font_scope": "No drawing, PDF or font assets in this tree. Separate owner-approved original-drawing permission is not revoked or expanded here. No third-party glyph/art clearance is implied.",
+  "third_party_exception": "No grant of rights not held or authorized by owner; third-party material retains its own applicable terms"
+}

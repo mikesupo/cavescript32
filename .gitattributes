@@ -1,0 +1,3 @@
+# Preserve exact bytes on all platforms, including core.autocrlf=true checkouts.
+# Baseline hashes, pinned keys and source newline fixtures must not be normalized.
+* -text

@@ -1,0 +1,17 @@
+CaveScript32 2.0-rc.1 — scoped licenses
+
+Copyright 2026 Michael S. Moniz, to the extent of rights held.
+
+MIT applies to the current software/tests/tools/configuration and both v2 mapping
+keys/fixture data listed in LICENSE_SCOPE.json. Full text: LICENSES/MIT.txt.
+CC BY 4.0 applies to the listed current documentation. Full legal code:
+LICENSES/CC-BY-4.0.txt. Code snippets authored for these documents are additionally
+available under MIT; surrounding prose remains CC BY 4.0.
+
+Ten original v1 source fixtures are preserved as archival sources with original
+notices; they do not receive an assumed blanket new grant. The newly authored
+subset manifest is MIT metadata.
+Third-party material and rights not held by Michael are excepted. See NOTICE.md.
+No drawings or fonts are distributed here; the separate drawing/font scope is
+not expanded by this repository. This license selection does not authorize the
+assistant to publish a release or change a public mapping.
