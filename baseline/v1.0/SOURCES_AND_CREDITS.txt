@@ -1,0 +1,66 @@
+CaveScript32 starter - sources and credits
+Snapshot retrieved and packaged 30 October 2026 (UTC).
+Encoding version 1.0; release decoder revision 15 October 2026.
+
+CREDITS
+CaveScript32 script, sign drawings, ordered-pair design and v1.0 key:
+Michael S. Moniz / SupoSystem.ai.
+First Program idea and original code: Claude, browser session, 2026.
+Second reading and correspondence: Claude, later session, 2026.
+Release decoder revision, independent verification and website preparation:
+ChatGPT, 15 October 2026.
+First-reading examples and worksheet: prepared with ChatGPT under Michael
+S. Moniz's direction, 28 October 2026.
+Starter organization, start-here instructions and package verification:
+ChatGPT under Michael S. Moniz's direction, 30 October 2026.
+
+The shapes are inspired by categories associated with Genevieve von Petzinger's
+Ice Age-sign research. The drawings and character assignments are modern;
+this is not a recovery of ancient meanings.
+
+UNCHANGED ORIGINAL FILES
+reference/CaveScript32_Public_Reading_Key.pdf
+https://suposystem.ai/wp-content/uploads/2026/10/CaveScript32_Public_Reading_Key.pdf
+
+reference/CaveScript32_First_Reading_Worksheet_v1_0.pdf
+https://suposystem.ai/wp-content/uploads/2026/10/CaveScript32_First_Reading_Worksheet_v1_0.pdf
+
+first-program/CaveScript32_First_Program.pdf
+https://suposystem.ai/wp-content/uploads/2026/10/CaveScript32_First_Program.pdf
+
+The four other files in first-program/ are the PDF's embedded attachments,
+extracted byte for byte: README.txt, cavescript_run.py, marks.py and
+marks_cavescript32.txt. They retain the original filenames and content.
+The PDF describes three source files; README.txt is the fourth attachment.
+For reliable runnable source, use the extracted files rather than copying
+text from the PDF's visually wrapped source listing.
+
+PUBLISHED CONTENT SAVED AS PLAIN TEXT
+reference/cavescript32-v1.0-key.json
+The complete copyable JSON block, saved unchanged as UTF-8 (HTML character
+references decoded, no mapping changes), from:
+https://suposystem.ai/cavescript/public-key/#character-tables
+
+examples/READ.txt, OPEN.txt and SAMPLE.txt
+The existing pair sequences from the first-word example, four-character
+challenge and sample inscription at:
+https://suposystem.ai/cavescript/learn-to-read/
+READ is assembled in cell order from the four published table rows.
+examples/ASK.txt is the three-pair example on worksheet page 2.
+The token files have one file-ending newline for plain-text convenience;
+this does not add an encoded newline to the example messages.
+
+ONLINE CONTEXT
+Overview: https://suposystem.ai/cavescript/
+Public key: https://suposystem.ai/cavescript/public-key/
+Lesson: https://suposystem.ai/cavescript/learn-to-read/
+Making inscriptions: https://suposystem.ai/cavescript/make-an-inscription/
+First Program and original correspondence:
+https://suposystem.ai/cavescript/first-program/
+
+VERSION AND RIGHTS
+This is a packaging of published materials, not a new CaveScript encoding
+version. Original PDFs, decoder, program and transcription are not edited.
+No new license is asserted or added by this package. Original authorship
+and any applicable rights remain unchanged. Source links and credits are
+kept with the files; this package does not change the public website.
